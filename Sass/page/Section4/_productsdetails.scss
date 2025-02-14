@@ -1,0 +1,115 @@
+@use "./../../abstract/responsive" as mix;
+
+.productDetails {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+
+  align-items: center;
+  justify-content: left;
+  height: 80vh;
+  width: 100%;
+  padding: 12rem;
+
+  @include mix.respond(smallPhone) {
+    padding: 5px;
+    display: flex;
+    // align-items: center;
+    justify-content: center;
+    height: 70vh;
+  }
+
+  &-container {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+
+    @include mix.respond(smallPhone) {
+      display: flex;
+      flex-direction: column;
+
+      gap: 2rem;
+    }
+
+    &-image {
+      width: 70%;
+      height: 60%;
+
+      @include mix.respond(smallPhone) {
+        width: 70%;
+        height: 70%;
+      }
+    }
+    &-details {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+
+      @include mix.respond(smallPhone) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+      }
+
+      &-smallhead {
+        font-size: 1.5rem;
+        font-weight: 200;
+
+        @include mix.respond(smallPhone) {
+          font-size: 0.5rem;
+        }
+      }
+      &-head {
+        font-size: 3rem;
+        font-weight: 600;
+
+        @include mix.respond(smallPhone) {
+          font-size: 1rem;
+        }
+      }
+      &-description {
+        font-size: 1.5rem;
+        font-weight: 400;
+        width: 32rem;
+
+        @include mix.respond(smallPhone) {
+          font-size: 0.5rem;
+          width: 15rem;
+          text-align: center;
+        }
+      }
+      &-button {
+        background-color: rgb(141, 217, 236);
+        color: white;
+        padding: 0.5rem 1rem;
+        border-radius: 1rem;
+        cursor: pointer;
+        width: 10rem;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+      }
+      &-features {
+        display: flex;
+        gap: 2rem;
+
+        &-item {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          gap: 1rem;
+
+          h5 {
+            font-size: 1rem;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+  }
+}

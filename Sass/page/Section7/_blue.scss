@@ -1,0 +1,53 @@
+@use "./../../abstract/responsive" as mix;
+
+.heroSection {
+  background-color: #b3d9ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 60px 20px;
+  height: 50vh;
+  gap: 2rem;
+
+  @include mix.respond(smallPhone) {
+    height: 100%;
+    padding: 2rem;
+  }
+
+  &-company {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    color: #333;
+
+    span {
+      font-weight: 800;
+    }
+  }
+
+  &-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #000;
+    width: 40rem;
+    margin: 0 auto 15px;
+
+    @include mix.respond(smallPhone) {
+      width: 15rem;
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+  }
+
+  &-subtitle {
+    font-size: 14px;
+    color: #333;
+
+    @include mix.respond(smallPhone) {
+      width: 10rem;
+    }
+  }
+}

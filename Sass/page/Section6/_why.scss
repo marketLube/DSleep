@@ -1,0 +1,90 @@
+@use "./../../abstract/responsive" as mix;
+
+.whyProducts {
+  padding: 5rem;
+  width: 100%;
+
+  @include mix.respond(smallPhone) {
+    padding: 2rem;
+    height: 100%;
+  }
+
+  &-container {
+    display: flex;
+    gap: 15rem;
+    width: 100%;
+    display: flex;
+    //   align-items: center;
+    // justify-content: center;
+    height: 50vh;
+
+    @include mix.respond(smallPhone) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 100%;
+      gap: 2rem;
+    }
+
+    &-title {
+      font-size: 3rem;
+      font-weight: bold;
+      margin-bottom: 20px;
+      text-align: left;
+      width: 15rem;
+      align-items: first baseline;
+    }
+
+    &-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 5rem;
+
+      @include mix.respond(smallPhone) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+      }
+    }
+
+    &-item {
+      display: flex;
+      flex-direction: column;
+
+      &-icon {
+        font-size: 24px;
+        color: black;
+        margin-bottom: 8px;
+
+        @include mix.respond(smallPhone) {
+          font-size: 1rem;
+        }
+      }
+
+      &-title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 5px;
+        text-align: left;
+
+        @include mix.respond(smallPhone) {
+          font-size: 1rem;
+        }
+      }
+
+      &-description {
+        font-size: 14px;
+        color: #555;
+        width: 20rem;
+        text-align: left;
+
+        @include mix.respond(smallPhone) {
+          font-size: 0.5rem;
+          width: 10rem;
+        }
+      }
+    }
+  }
+}

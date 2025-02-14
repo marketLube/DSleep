@@ -1,0 +1,77 @@
+@use "./../../abstract/responsive" as mix;
+.booknow {
+  background-color: antiquewhite;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-image: url("./../../../src/assets/sleep.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  @include mix.respond(smallPhone) {
+  }
+
+  &-main {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+
+    @include mix.respond(smallPhone) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    &-container {
+      background-color: white;
+      height: 65%;
+      width: 30%;
+      padding: 4rem;
+
+      @include mix.respond(smallPhone) {
+        height: 70%;
+        width: 90%;
+        background-color: rgba(255, 255, 255, 0.5);
+      }
+
+      &-para {
+        font-weight: 500;
+        font-size: 3rem;
+        margin-bottom: 10rem;
+
+        @include mix.respond(smallPhone) {
+          font-size: 1.5rem;
+          font-weight: 2rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+        }
+      }
+      &-book {
+        background-color: blue;
+        color: white;
+        width: 6rem;
+        height: 2rem;
+        border: none;
+        border-radius: 2rem;
+        margin-bottom: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+
+        @include mix.respond(smallPhone) {
+          width: 8rem;
+          height: 2rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}

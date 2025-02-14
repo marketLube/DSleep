@@ -1,0 +1,51 @@
+@use "./../../abstract/responsive" as mix;
+
+.mattress {
+  background-color: antiquewhite;
+  height: 100vh;
+  background-image: url("./../../../src/assets/img1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  @include mix.respond(smallPhone) {
+    height: 80vh;
+    padding: 2rem;
+  }
+
+  &-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: right;
+    padding: 6rem;
+    gap: 2rem;
+
+    @include mix.respond(smallPhone) {
+      padding: 1px;
+    }
+
+    &-para {
+      color: black;
+      font-weight: 500;
+      font-size: 5rem;
+      text-align: right;
+      width: 60%;
+
+      @include mix.respond(smallPhone) {
+        font-size: 2rem;
+        width: 100%;
+      }
+    }
+    &-advice {
+      color: black;
+      text-align: left;
+
+      @include mix.respond(smallPhone) {
+        font-size: 1rem;
+        width: 100%;
+        text-align: right;
+      }
+    }
+  }
+}
