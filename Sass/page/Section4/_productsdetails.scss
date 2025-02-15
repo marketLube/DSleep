@@ -18,6 +18,12 @@
     height: 70vh;
   }
 
+  @include mix.respond(tablets) {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+
   &-container {
     display: flex;
     gap: 4rem;
@@ -31,6 +37,13 @@
       gap: 2rem;
     }
 
+    @include mix.respond(tablets) {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      width: 90%;
+    }
+
     &-image {
       width: 70%;
       height: 60%;
@@ -38,6 +51,11 @@
       @include mix.respond(smallPhone) {
         width: 70%;
         height: 70%;
+      }
+
+      @include mix.respond(tablets) {
+        width: 80%;
+        height: 80%;
       }
     }
     &-details {
@@ -53,12 +71,24 @@
         gap: 1rem;
       }
 
+      @include mix.respond(tablets) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+      }
+
       &-smallhead {
         font-size: 1.5rem;
         font-weight: 200;
 
         @include mix.respond(smallPhone) {
           font-size: 0.5rem;
+        }
+
+        @include mix.respond(tablets) {
+          font-size: 1rem;
         }
       }
       &-head {
@@ -67,6 +97,10 @@
 
         @include mix.respond(smallPhone) {
           font-size: 1rem;
+        }
+
+        @include mix.respond(tablets) {
+          font-size: 2rem;
         }
       }
       &-description {
@@ -77,6 +111,12 @@
         @include mix.respond(smallPhone) {
           font-size: 0.5rem;
           width: 15rem;
+          text-align: center;
+        }
+
+        @include mix.respond(tablets) {
+          font-size: 1rem;
+          width: 25rem;
           text-align: center;
         }
       }

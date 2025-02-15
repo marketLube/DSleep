@@ -9,6 +9,11 @@
     height: 100%;
   }
 
+  @include mix.respond(tablets) {
+    padding: 2rem;
+    height: 100%;
+  }
+
   &-container {
     display: flex;
     gap: 15rem;
@@ -19,6 +24,14 @@
     height: 50vh;
 
     @include mix.respond(smallPhone) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 100%;
+      gap: 2rem;
+    }
+
+    @include mix.respond(tablets) {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -47,6 +60,14 @@
         justify-content: center;
         gap: 1rem;
       }
+
+      @include mix.respond(tablets) {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+      }
     }
 
     &-item {
@@ -61,6 +82,10 @@
         @include mix.respond(smallPhone) {
           font-size: 1rem;
         }
+
+        @include mix.respond(tablets) {
+          font-size: 1rem;
+        }
       }
 
       &-title {
@@ -70,6 +95,10 @@
         text-align: left;
 
         @include mix.respond(smallPhone) {
+          font-size: 1rem;
+        }
+
+        @include mix.respond(tablets) {
           font-size: 1rem;
         }
       }
@@ -83,6 +112,11 @@
         @include mix.respond(smallPhone) {
           font-size: 0.5rem;
           width: 10rem;
+        }
+
+        @include mix.respond(tablets) {
+          font-size: 1rem;
+          width: 15rem;
         }
       }
     }

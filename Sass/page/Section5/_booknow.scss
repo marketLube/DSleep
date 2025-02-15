@@ -25,6 +25,12 @@
       align-items: center;
     }
 
+    @include mix.respond(tablets) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
     &-container {
       background-color: white;
       height: 65%;
@@ -32,6 +38,12 @@
       padding: 4rem;
 
       @include mix.respond(smallPhone) {
+        height: 70%;
+        width: 90%;
+        background-color: rgba(255, 255, 255, 0.5);
+      }
+
+      @include mix.respond(tablets) {
         height: 70%;
         width: 90%;
         background-color: rgba(255, 255, 255, 0.5);
@@ -50,6 +62,11 @@
           justify-content: center;
           text-align: center;
         }
+
+        @include mix.respond(tablets) {
+          font-size: 2rem;
+          margin-bottom: 5rem;
+        }
       }
       &-book {
         background-color: blue;
@@ -65,6 +82,14 @@
         gap: 0.5rem;
 
         @include mix.respond(smallPhone) {
+          width: 8rem;
+          height: 2rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        @include mix.respond(tablets) {
           width: 8rem;
           height: 2rem;
           display: flex;

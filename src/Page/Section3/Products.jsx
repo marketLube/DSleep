@@ -1,5 +1,14 @@
 import React from "react";
 import bed from "./../../assets/pillow.jpg";
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/free-mode";
+import "swiper/css/pagination";
+
+// import required modules
+import { FreeMode, Pagination, Autoplay } from "swiper/modules";
 
 const products = [
   {
@@ -26,6 +35,14 @@ const products = [
     msrp: "₹ 3999",
     discount: "20%",
   },
+  {
+    id: 4,
+    image: bed,
+    title: "Lorem ipsum",
+    price: "₹ 2999",
+    msrp: "₹ 3999",
+    discount: "20%",
+  },
 ];
 
 const Products = () => {
@@ -35,9 +52,44 @@ const Products = () => {
         <h2 className="productList-title">
           Smart surveillance systems for your home and business
         </h2>
-        <div className="productList-grid">
+        <Swiper
+          // className="productList-grid"
+          slidesPerView={4}
+          spaceBetween={100}
+          pagination={{
+            clickable: true,
+          }}
+          autoplay={{
+            delay: 1500,
+            disableOnInteraction: false,
+          }}
+          breakpoints={{
+            320: {
+              slidesPerView: 1,
+              spaceBetween: 20,
+            },
+            375: {
+              slidesPerView: 1,
+              spaceBetween: 30,
+            },
+            576: {
+              slidesPerView: 2,
+              spaceBetween: 30,
+            },
+            768: {
+              slidesPerView: 2,
+              spaceBetween: 40,
+            },
+            992: {
+              slidesPerView: 3,
+              spaceBetween: 50,
+            },
+          }}
+          modules={[FreeMode, Pagination, Autoplay]}
+          className="mySwiper"
+        >
           {products.map((product) => (
-            <div key={product.id} className="productList-item">
+            <SwiperSlide key={product.id} className="productList-item">
               <img
                 src={product.image}
                 alt={product.title}
@@ -54,9 +106,9 @@ const Products = () => {
                   {product.discount}
                 </span>
               </p>
-            </div>
+            </SwiperSlide>
           ))}
-        </div>
+        </Swiper>
         <div className="productList-buttons">
           <button className="productList-buttons-explore">
             Explore products
