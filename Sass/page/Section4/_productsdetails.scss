@@ -6,9 +6,9 @@
 
   align-items: center;
   justify-content: left;
-  height: 80vh;
+  height: 100vh;
   width: 100%;
-  padding: 12rem;
+  padding: 15rem;
 
   @include mix.respond(smallPhone) {
     padding: 5px;
@@ -26,7 +26,7 @@
 
   &-container {
     display: flex;
-    gap: 4rem;
+    gap: 5rem;
     align-items: center;
     justify-content: center;
 
@@ -45,8 +45,8 @@
     }
 
     &-image {
-      width: 70%;
-      height: 60%;
+      width: 35rem;
+      height: 37rem;
 
       @include mix.respond(smallPhone) {
         width: 70%;
@@ -61,7 +61,7 @@
     &-details {
       display: flex;
       flex-direction: column;
-      gap: 2rem;
+      gap: 3.5rem;
 
       @include mix.respond(smallPhone) {
         display: flex;
@@ -80,7 +80,7 @@
       }
 
       &-smallhead {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         font-weight: 200;
 
         @include mix.respond(smallPhone) {
@@ -121,17 +121,24 @@
         }
       }
       &-button {
-        background-color: rgb(141, 217, 236);
-        color: white;
-        padding: 0.5rem 1rem;
-        border-radius: 1rem;
-        cursor: pointer;
-        width: 10rem;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        height: 4rem;
+        width: 15rem;
+        font-size: 1.1rem;
+        border-radius: 3rem;
         border: none;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 0.5rem;
+        font-weight: 600;
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+        cursor: pointer;
+        transition: all 0.3s ease;
+        &:hover {
+         box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+        }
+        &-icon {
+          font-size: 1.5rem;
+          margin-left: 0.5rem;
+        }
       }
       &-features {
         display: flex;

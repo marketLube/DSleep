@@ -7,13 +7,12 @@ const Imagebed = () => {
     <section className="bed">
       <Nav />
       <div className="bed-container">
-        <h2 className="bed-container-text">Better Sleep,Better Living</h2>
+        <h2 className="bed-container-text">Better Sleep, Better Livning</h2>
         <p className="bed-container-note">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-          quos. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Quisquam, quos.amet consectetur adipisicing elit. Quisquam, quos.
+          Wake up refreshed every morning! Experience superior comfort, quality,
+          and support with our expertly crafted mattresses.{" "}
         </p>
-        <button className="bed-container-button">Shop Now</button>
+        <button className="bed-container-button">Shop now</button>
       </div>
     </section>
   );

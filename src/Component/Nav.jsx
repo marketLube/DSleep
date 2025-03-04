@@ -4,7 +4,8 @@ const Nav = () => {
     <nav className="navbar">
       <div className="navbar-logo">
         <h1>
-          <span>D</span>SLEEP <br /> COMPANY
+          {/* <span>D</span>SLEEP <br /> COMPANY */}
+          DSLEEP <br /> COMPANY
         </h1>
       </div>
       <ul className="navbar-menu">
@@ -26,13 +27,13 @@ const Nav = () => {
       </ul>
       <div className="navbar-icons">
         <button className="navbar-icons-button">
-          <FaFacebook />
+          <FaFacebook className="navbar-icons-button-icon"/>
         </button>
         <button className="navbar-icons-button">
-          <FaInstagram />
+          <FaInstagram className="navbar-icons-button-icon"/>
         </button>
         <button className="navbar-icons-button">
-          <FaTwitter />
+          <FaTwitter className="navbar-icons-button-icon"/>
         </button>
       </div>
 

@@ -7,6 +7,7 @@ import Why from "./Page/Section6/Why";
 import Blue from "./Page/Section7/Blue";
 import Booknow from "./Page/Section5/Booknow";
 import Mattress from "./Page/Section8/Mattress";
+import Footer from "./Page/Section9/Footer";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -21,6 +22,7 @@ function App() {
       <Why />
       <Blue />
       <Mattress />
+      <Footer />
     </>
   );
 }

@@ -1,5 +1,6 @@
 import React from "react";
-import bed from "./../../assets/pillow.jpg";
+import  pillow from "./../../assets/products/pngwing.com.png";
+
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -13,7 +14,7 @@ import { FreeMode, Pagination, Autoplay } from "swiper/modules";
 const products = [
   {
     id: 1,
-    image: bed,
+    image: pillow,
     title: "Lorem ipsum",
     price: "₹ 2499",
     msrp: "₹ 3499",
@@ -21,7 +22,7 @@ const products = [
   },
   {
     id: 2,
-    image: bed,
+    image: pillow,
     title: "Lorem ipsum",
     price: "₹ 2499",
     msrp: "₹ 3499",
@@ -29,7 +30,7 @@ const products = [
   },
   {
     id: 3,
-    image: bed,
+    image: pillow,
     title: "Lorem ipsum",
     price: "₹ 2999",
     msrp: "₹ 3999",
@@ -37,7 +38,7 @@ const products = [
   },
   {
     id: 4,
-    image: bed,
+    image:  pillow,
     title: "Lorem ipsum",
     price: "₹ 2999",
     msrp: "₹ 3999",
@@ -98,11 +99,11 @@ const Products = () => {
               <h3 className="productList-item-title">{product.title}</h3>
               <p className="productList-item-price">{product.price}</p>
               <p className="productList-item-msrp">
-                MSRP:{" "}
+                MRP:{" "}
                 <span className="productList-item-msrp-strike">
                   {product.msrp}
                 </span>{" "}
-                <span className="productList-item-discount">
+                <span className="productList-item-discount" style={{color: "rgb(150, 0, 0)"}} >
                   {product.discount}
                 </span>
               </p>

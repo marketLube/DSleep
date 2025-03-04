@@ -1,11 +1,32 @@
 import React from "react";
 import { SiTicktick } from "react-icons/si";
 
-const features = Array(6).fill({
-  title: "Lorem ipsum",
-  description:
-    "Lorem ipsum dolor sit amet consec aucter.Lorem ipsum dolor sit amet consec aucter.",
-});
+const features = [
+  {
+    title: "100-Night Risk-Free Trial",
+    description: "Try, sleep, return hassle-free if not satisfied."
+  },
+  {
+    title: "Premium Comfort & Support",
+    description: "Advanced design for pressure relief, perfect alignment."
+  },
+  {
+    title: "Breathable & Cooling",
+    description: "Temperature-regulating layers keep you cool."
+  },
+  {
+    title: "Durable & Long-Lasting",
+    description: "High-quality materials ensure years of comfort."
+  },
+  {
+    title: "Eco-Friendly & Safe",
+    description: "Non-toxic, sustainable, and certified safe materials."
+  },
+  {
+    title: "Free Delivery & Easy Returns",
+    description: "Fast shipping, no cost, effortless return process."
+  }
+];
 
 const Why = () => {
   return (

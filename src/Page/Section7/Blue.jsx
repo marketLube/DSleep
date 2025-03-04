@@ -7,8 +7,7 @@ const Blue = () => {
         DSLEEP <span>COMPANY</span>
       </h3>
       <h1 className="heroSection-title">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam
-        nonummy nibh.
+      Rest easy with our 100-night trial. Experience superior comfort and quality, risk-free. Love it or return it—your best sleep starts here
       </h1>
       <p className="heroSection-subtitle">
         Lorem ipsum dolor sit amet, consectetur.
