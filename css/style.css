@@ -761,6 +761,8 @@ body {
 @media only screen and (max-width: 575.98px) {
   .productDetails-container-details-description {
     font-size: 0.9rem;
+    font-weight: 300;
+    line-height: 1.5;
     width: 90%;
     text-align: center;
   }
@@ -796,6 +798,7 @@ body {
     padding: 0.5rem 1rem;
     font-size: 1rem;
     margin-bottom: 0px;
+    margin-top: 2rem;
   }
 }
 .productDetails-container-details-button:hover {

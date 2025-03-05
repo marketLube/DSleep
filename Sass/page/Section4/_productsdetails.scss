@@ -110,6 +110,8 @@
 
         @include mix.respond(smallPhone) {
           font-size: 0.9rem;
+          font-weight: 300;
+          line-height: 1.5;
           width: 90%;
           text-align: center;
         }
@@ -143,6 +145,7 @@
           padding: 0.5rem 1rem;
           font-size: 1rem;
           margin-bottom: 0px;
+          margin-top: 2rem;
         }
 
         &:hover {
