@@ -4,24 +4,21 @@
   background-color: rgb(197, 112, 112);
   height: 140vh;
   width: 100%;
-  background-image: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 35%), url("./../../../src/assets/images/dz00xwb5xf3vjnhcqzzg.webp");
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 0) 35%
+    ),
+    url("https://res.cloudinary.com/dzuqczvb7/image/upload/v1741172821/dz00xwb5xf3vjnhcqzzg_czwfir.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 
   @include mix.respond(smallPhone) {
     height: 100vh;
-    background-image: url("./../../../src/assets/sleep.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
   }
   @include mix.respond(tablets) {
     height: 100vh;
-    background-image: url("./../../../src/assets/sleep.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
   }
 
   &-container {
@@ -31,7 +28,6 @@
     justify-content: center;
     gap: 2rem;
     padding-top: 5rem;
-
 
     @include mix.respond(smallPhone) {
       display: flex;
@@ -76,7 +72,6 @@
       line-height: 1.5;
       font-weight: 500;
 
-
       @include mix.respond(smallPhone) {
         font-size: 1rem;
         width: 90%;
@@ -101,9 +96,8 @@
       cursor: pointer;
       transition: all 0.3s ease;
       &:hover {
-       box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
       }
-
 
       @include mix.respond(smallPhone) {
         height: 2rem;
@@ -123,8 +117,7 @@
     h1 {
       font-size: 2rem;
       font-weight: 900;
-       color: rgb(7, 7, 179);
-
+      color: rgb(7, 7, 179);
 
       span {
         color: blue;

@@ -54,7 +54,7 @@ body {
   background-color: rgb(197, 112, 112);
   height: 140vh;
   width: 100%;
-  background-image: linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 35%), url("./../../../src/assets/images/dz00xwb5xf3vjnhcqzzg.webp");
+  background-image: linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 35%), url("https://res.cloudinary.com/dzuqczvb7/image/upload/v1741172821/dz00xwb5xf3vjnhcqzzg_czwfir.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -62,19 +62,11 @@ body {
 @media only screen and (max-width: 575.98px) {
   .bed {
     height: 100vh;
-    background-image: url("./../../../src/assets/sleep.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
   .bed {
     height: 100vh;
-    background-image: url("./../../../src/assets/sleep.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
   }
 }
 .bed-container {
