@@ -35,7 +35,7 @@
       align-items: center;
       justify-content: center;
       gap: 2rem;
-      padding-top: 10rem;
+      padding-top: 12rem;
     }
     @include mix.respond(tablets) {
       padding-top: 10rem;
@@ -53,8 +53,9 @@
       text-align: center;
 
       @include mix.respond(smallPhone) {
-        font-size: 2rem;
+        font-size: 2.5rem;
         text-align: center;
+        width: 80%;
       }
       @include mix.respond(tablets) {
         font-size: 2rem;
@@ -74,6 +75,7 @@
 
       @include mix.respond(smallPhone) {
         font-size: 1rem;
+        // text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.8);
         width: 90%;
       }
       @include mix.respond(tablets) {
@@ -102,7 +104,7 @@
       @include mix.respond(smallPhone) {
         height: 2rem;
         width: 8rem;
-        font-size: 0.5rem;
+        font-size: 0.7rem;
       }
     }
   }
@@ -118,6 +120,10 @@
       font-size: 2rem;
       font-weight: 900;
       color: rgb(7, 7, 179);
+
+      @include mix.respond(smallPhone) {
+        font-size: 1.5rem;
+      }
 
       span {
         color: blue;

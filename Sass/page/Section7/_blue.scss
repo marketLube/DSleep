@@ -25,6 +25,12 @@
     width: 3rem; // Changed from 3rem to 100% for center alignment
     text-align: center; // Explicitly set text alignment
 
+    @include mix.respond(smallPhone) {
+      font-size: 1.5rem;
+      margin-top: 0;
+      width: 100%;
+    }
+
     span {
       font-weight: 800;
     }
@@ -41,8 +47,8 @@
     max-width: 100%; // Added max-width to prevent overflow
 
     @include mix.respond(smallPhone) {
-      width: 15rem;
-      font-size: 1.5rem;
+      // width: 15rem;
+      font-size: 1.3rem;
       font-weight: 700;
     }
   }
@@ -52,7 +58,9 @@
     color: #333;
 
     @include mix.respond(smallPhone) {
-      width: 10rem;
+      // width: 10rem;
+      font-size: 0.8rem;
+      font-weight: 500;
     }
   }
 }

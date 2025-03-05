@@ -31,6 +31,7 @@
 
     @include mix.respond(smallPhone) {
       padding: 1px;
+      gap: 0.5rem;
     }
 
     @include mix.respond(tablets) {
@@ -45,7 +46,7 @@
       width: 60%;
 
       @include mix.respond(smallPhone) {
-        font-size: 2rem;
+        font-size: 1.45rem;
         width: 100%;
       }
 

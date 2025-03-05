@@ -3,7 +3,6 @@
 .productDetails {
   background-color: rgb(247, 247, 247);
   display: flex;
-
   align-items: center;
   justify-content: left;
   height: 100vh;
@@ -13,9 +12,9 @@
   @include mix.respond(smallPhone) {
     padding: 5px;
     display: flex;
-    // align-items: center;
+
     justify-content: center;
-    height: 70vh;
+    height: 100vh;
   }
 
   @include mix.respond(tablets) {
@@ -33,8 +32,8 @@
     @include mix.respond(smallPhone) {
       display: flex;
       flex-direction: column;
-
-      gap: 2rem;
+      justify-content: space-between;
+      gap: 3rem;
     }
 
     @include mix.respond(tablets) {
@@ -85,7 +84,7 @@
         color: rgb(99, 99, 99);
 
         @include mix.respond(smallPhone) {
-          font-size: 0.5rem;
+          font-size: 0.9rem;
         }
 
         @include mix.respond(tablets) {
@@ -97,7 +96,7 @@
         font-weight: 600;
 
         @include mix.respond(smallPhone) {
-          font-size: 1rem;
+          font-size: 2rem;
         }
 
         @include mix.respond(tablets) {
@@ -110,8 +109,8 @@
         width: 38rem;
 
         @include mix.respond(smallPhone) {
-          font-size: 0.5rem;
-          width: 15rem;
+          font-size: 0.9rem;
+          width: 90%;
           text-align: center;
         }
 
@@ -137,14 +136,22 @@
         padding: 0 2rem;
         box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
         transition: all 0.3s ease;
+
+        @include mix.respond(smallPhone) {
+          width: fit-content;
+          height: fit-content;
+          padding: 0.5rem 1rem;
+          font-size: 1rem;
+          margin-bottom: 0px;
+        }
+
         &:hover {
-         box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
         }
         &-icon {
           font-size: 1.6rem;
           margin-left: 0.5rem;
-width: 2rem;
-
+          width: 2rem;
         }
       }
       &-features {

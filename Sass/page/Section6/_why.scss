@@ -3,8 +3,7 @@
 .whyProducts {
   padding: 7rem;
   // width: 100%;
-height: 90vh;
-
+  height: 90vh;
 
   @include mix.respond(smallPhone) {
     padding: 2rem;
@@ -21,10 +20,10 @@ height: 90vh;
     // gap: 17rem;
     width: 100%;
     display: flex;
-      align-items: start;
+    align-items: start;
     justify-content: space-between;
     height: 100%;
-margin-top: 40px;
+    margin-top: 40px;
 
     @include mix.respond(smallPhone) {
       display: flex;
@@ -49,20 +48,27 @@ margin-top: 40px;
       text-align: left;
       width: 18rem;
       align-items: first baseline;
+
+      @include mix.respond(smallPhone) {
+        font-size: 3rem;
+        width: 100%;
+        text-align: center;
+      }
     }
 
     &-grid {
       display: grid;
       grid-template-columns: repeat(3, 2fr);
       gap: 5rem;
-margin-top: 38px;
+      margin-top: 38px;
 
       @include mix.respond(smallPhone) {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
         justify-content: center;
-        gap: 1rem;
+        gap: 3rem 1rem;
+        margin-top: 0px;
       }
 
       @include mix.respond(tablets) {
@@ -77,8 +83,7 @@ margin-top: 38px;
     &-item {
       display: flex;
       flex-direction: column;
-gap: 10px;
-
+      gap: 10px;
 
       &-icon {
         font-size: 24px;
@@ -87,6 +92,7 @@ gap: 10px;
 
         @include mix.respond(smallPhone) {
           font-size: 1rem;
+          margin-bottom: 0px;
         }
 
         @include mix.respond(tablets) {
@@ -114,8 +120,8 @@ gap: 10px;
         color: #070707;
         width: 20rem;
         text-align: left;
-width: 15rem;
-font-weight: 500;
+        width: 15rem;
+        font-weight: 500;
 
         @include mix.respond(smallPhone) {
           font-size: 0.5rem;

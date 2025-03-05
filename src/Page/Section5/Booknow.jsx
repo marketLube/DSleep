@@ -11,7 +11,10 @@ const Booknow = () => {
             Buy a set for the ultimate Dremzy experience
           </p>
           <button className="booknow-main-container-book">
-            Book Now <FaArrowRightLong />
+            Book Now{" "}
+            <span style={{ marginLeft: "0.5rem" }}>
+              <FaArrowRightLong />
+            </span>
           </button>
         </div>
       </div>
