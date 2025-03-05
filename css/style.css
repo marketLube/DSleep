@@ -633,9 +633,9 @@ body {
 
 .swiper-slide img {
   display: block;
-  width: 65%;
+  width: 80%;
   height: 70%;
-  object-fit: cover;
+  object-fit: contain;
   margin: 0 auto;
 }
 
@@ -1001,7 +1001,7 @@ body {
   font-size: 2.5rem;
   font-weight: bold;
   color: #000;
-  width: 45rem;
+  width: 90%;
   margin: 0 auto 15px;
   margin-top: 30px;
   text-align: center;
@@ -1009,8 +1009,9 @@ body {
 }
 @media only screen and (max-width: 575.98px) {
   .heroSection-title {
-    font-size: 1.3rem;
-    font-weight: 700;
+    font-size: 1rem;
+    margin-top: 1rem;
+    font-weight: 300;
   }
 }
 .heroSection-subtitle {

@@ -7,11 +7,10 @@ const Blue = () => {
         DSLEEP <span>COMPANY</span>
       </h3>
       <h1 className="heroSection-title">
-      Rest easy with our 100-night trial. Experience superior comfort and quality, risk-free. Love it or return it—your best sleep starts here
+        Rest easy with our 100-night trial. Experience superior comfort and
+        quality, risk-free. Love it or return it
       </h1>
-      <p className="heroSection-subtitle">
-        Lorem ipsum dolor sit amet, consectetur.
-      </p>
+      <p className="heroSection-subtitle">Your best sleep starts here</p>
     </section>
   );
 };

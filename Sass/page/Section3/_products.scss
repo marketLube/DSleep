@@ -50,6 +50,10 @@
       object-fit: contain;
       transition: transform 0.3s ease;
 
+      @include mix.respond(smallPhone) {
+        // width: 20rem !important;
+      }
+
       &:hover {
         transform: scale(1.05);
       }
@@ -164,8 +168,8 @@
 
 .swiper-slide img {
   display: block;
-  width: 65%;
+  width: 80%;
   height: 70%;
-  object-fit: cover;
+  object-fit: contain;
   margin: 0 auto;
 }

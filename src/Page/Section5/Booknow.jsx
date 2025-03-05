@@ -20,5 +20,4 @@ const Booknow = () => {
     </section>
   );
 };
-
 export default Booknow;
