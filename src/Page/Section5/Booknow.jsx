@@ -1,4 +1,3 @@
-import React from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
 
 const Booknow = () => {
@@ -11,7 +10,7 @@ const Booknow = () => {
             Buy a set for the ultimate Dremzy experience
           </p>
           <button className="booknow-main-container-book">
-            Book Now{" "}
+            Book Now
             <span style={{ marginLeft: "0.5rem" }}>
               <FaArrowRightLong />
             </span>
