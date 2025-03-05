@@ -58,7 +58,6 @@ body {
 }
 
 .bed {
-  background-color: rgb(197, 112, 112);
   height: 140vh;
   width: 100%;
   background-image: linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 35%), url("https://res.cloudinary.com/dzuqczvb7/image/upload/v1741172821/dz00xwb5xf3vjnhcqzzg_czwfir.webp");
@@ -69,6 +68,7 @@ body {
 @media only screen and (max-width: 575.98px) {
   .bed {
     height: 100vh;
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255) 30%, rgba(255, 255, 255, 0) 85%), url("https://res.cloudinary.com/dzuqczvb7/image/upload/v1741172821/dz00xwb5xf3vjnhcqzzg_czwfir.webp");
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
@@ -91,7 +91,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 2rem;
-    padding-top: 12rem;
+    padding-top: 3rem;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
@@ -115,6 +115,7 @@ body {
     font-size: 2.5rem;
     text-align: center;
     width: 80%;
+    padding-top: 1rem;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
