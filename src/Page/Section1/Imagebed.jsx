@@ -7,7 +7,7 @@ const Imagebed = () => {
     <section className="bed">
       <Nav />
       <div className="bed-container">
-        <h2 className="bed-container-text">Better Sleep, Better Livning</h2>
+        <h2 className="bed-container-text">Better Sleep, Better Living</h2>
         <p className="bed-container-note">
           Wake up refreshed every morning! Experience superior comfort, quality,
           and support with our expertly crafted mattresses.{" "}

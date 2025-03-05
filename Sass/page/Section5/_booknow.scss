@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-image: url("./../../../src/assets/me/dada_design-YmtlGsmTcgk-unsplash.jpg");
+  background-image: url("./../../../src/assets/images/mdel3ob9yrlrdb4rfttw.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -33,9 +33,10 @@
 
     &-container {
       background-color: white;
-      height: 65%;
-      width: 30%;
-      padding: 4rem;
+      height: 40%;
+      width: 40%;
+      padding: 8rem;
+padding-left: 4rem;
 
       @include mix.respond(smallPhone) {
         height: 70%;
@@ -44,15 +45,18 @@
       }
 
       @include mix.respond(tablets) {
-        height: 70%;
+        height: 60%;
         width: 90%;
         background-color: rgba(255, 255, 255, 0.5);
       }
 
       &-para {
-        font-weight: 500;
-        font-size: 3rem;
+        font-weight: 600;
+        font-size: 3.8rem;
         margin-bottom: 10rem;
+color: rgb(27, 27, 27);
+width: 28rem;
+line-height: 5.2rem;
 
         @include mix.respond(smallPhone) {
           font-size: 1.5rem;
@@ -69,17 +73,20 @@
         }
       }
       &-book {
-        background-color: blue;
+        background-color: rgb(12, 12, 184);
         color: white;
-        width: 6rem;
-        height: 2rem;
+        height: 3.5rem;
+        width: 16rem;
         border: none;
-        border-radius: 2rem;
+        font-size: 1.3rem;
+        font-weight: 400;
+        border-radius: 3rem;
         margin-bottom: 3rem;
         display: flex;
         align-items: center;
-        justify-content: center;
-        gap: 0.5rem;
+        justify-content: space-between;
+        padding: 0 2rem;
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
 
         @include mix.respond(smallPhone) {
           width: 8rem;

@@ -2,6 +2,7 @@ import React from "react";
 import bed from "./../../assets/images/bed.webp";
 import { SiTicktick } from "react-icons/si";
 import { FaArrowRightLong } from "react-icons/fa6";
+import { LiaLongArrowAltRightSolid } from "react-icons/lia";
 
 const Productsdetails = () => {
   return (
@@ -18,12 +19,14 @@ const Productsdetails = () => {
           </h5>
           <h2 className="productDetails-container-details-head">Mattress</h2>
           <p className="productDetails-container-details-description">
-           Experience unmatched comfort and support with our premium mattresses. Designed with advanced technology, they ensure optimal spinal alignment, breathability, and pressure relief. Enjoy a rejuvenating sleep every night with high-quality, durable materials crafted for long-lasting performance.
-
+            Sleep better with our expertly designed mattresses. Engineered for
+            superior comfort, breathability, and spinal alignment, they provide
+            long-lasting support for a rejuvenating night’s rest.
           </p>
           <button className="productDetails-container-details-button">
             Book Now
-            <FaArrowRightLong  className="productDetails-container-details-button-icon"/>
+            {/* <FaArrowRightLong className="productDetails-container-details-button-icon" /> */}
+            <LiaLongArrowAltRightSolid className="productDetails-container-details-button-icon"/>
           </button>
           {/* <div className="productDetails-container-details-features">
             <div className="productDetails-container-details-features-item">

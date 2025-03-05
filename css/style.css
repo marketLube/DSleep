@@ -587,7 +587,7 @@ body {
 }
 
 .productDetails {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(247, 247, 247);
   display: flex;
   align-items: center;
   justify-content: left;
@@ -672,7 +672,8 @@ body {
 }
 .productDetails-container-details-smallhead {
   font-size: 1.2rem;
-  font-weight: 200;
+  font-weight: 500;
+  color: rgb(99, 99, 99);
 }
 @media only screen and (max-width: 575.98px) {
   .productDetails-container-details-smallhead {
@@ -685,7 +686,7 @@ body {
   }
 }
 .productDetails-container-details-head {
-  font-size: 3rem;
+  font-size: 3.2rem;
   font-weight: 600;
 }
 @media only screen and (max-width: 575.98px) {
@@ -700,8 +701,8 @@ body {
 }
 .productDetails-container-details-description {
   font-size: 1.5rem;
-  font-weight: 400;
-  width: 32rem;
+  font-weight: 500;
+  width: 38rem;
 }
 @media only screen and (max-width: 575.98px) {
   .productDetails-container-details-description {
@@ -720,22 +721,27 @@ body {
 .productDetails-container-details-button {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
-  height: 4rem;
-  width: 15rem;
-  font-size: 1.1rem;
-  border-radius: 3rem;
+  height: 3.5rem;
+  width: 16rem;
   border: none;
-  font-weight: 600;
-  box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
-  cursor: pointer;
+  font-size: 1.3rem;
+  font-weight: 400;
+  border-radius: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
 }
 .productDetails-container-details-button:hover {
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
 }
 .productDetails-container-details-button-icon {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   margin-left: 0.5rem;
+  width: 2rem;
 }
 .productDetails-container-details-features {
   display: flex;
@@ -754,8 +760,8 @@ body {
 }
 
 .whyProducts {
-  padding: 5rem;
-  width: 100%;
+  padding: 7rem;
+  height: 90vh;
 }
 @media only screen and (max-width: 575.98px) {
   .whyProducts {
@@ -771,10 +777,12 @@ body {
 }
 .whyProducts-container {
   display: flex;
-  gap: 15rem;
   width: 100%;
   display: flex;
-  height: 50vh;
+  align-items: start;
+  justify-content: space-between;
+  height: 100%;
+  margin-top: 40px;
 }
 @media only screen and (max-width: 575.98px) {
   .whyProducts-container {
@@ -795,17 +803,18 @@ body {
   }
 }
 .whyProducts-container-title {
-  font-size: 3rem;
-  font-weight: bold;
+  font-size: 4rem;
+  font-weight: 600;
   margin-bottom: 20px;
   text-align: left;
-  width: 15rem;
+  width: 18rem;
   align-items: first baseline;
 }
 .whyProducts-container-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 2fr);
   gap: 5rem;
+  margin-top: 38px;
 }
 @media only screen and (max-width: 575.98px) {
   .whyProducts-container-grid {
@@ -828,11 +837,12 @@ body {
 .whyProducts-container-item {
   display: flex;
   flex-direction: column;
+  gap: 10px;
 }
 .whyProducts-container-item-icon {
   font-size: 24px;
   color: black;
-  margin-bottom: 8px;
+  margin-bottom: 1.8em;
 }
 @media only screen and (max-width: 575.98px) {
   .whyProducts-container-item-icon {
@@ -845,8 +855,8 @@ body {
   }
 }
 .whyProducts-container-item-title {
-  font-size: 1.5rem;
-  font-weight: bold;
+  font-size: 1.3rem;
+  font-weight: 700;
   margin-bottom: 5px;
   text-align: left;
 }
@@ -861,10 +871,12 @@ body {
   }
 }
 .whyProducts-container-item-description {
-  font-size: 14px;
-  color: #555;
+  font-size: 18px;
+  color: #070707;
   width: 20rem;
   text-align: left;
+  width: 15rem;
+  font-weight: 500;
 }
 @media only screen and (max-width: 575.98px) {
   .whyProducts-container-item-description {
@@ -886,9 +898,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 60px 20px;
-  height: 50vh;
-  gap: 2rem;
+  height: 60vh;
 }
 @media only screen and (max-width: 575.98px) {
   .heroSection {
@@ -897,11 +907,13 @@ body {
   }
 }
 .heroSection-company {
-  font-size: 18px;
+  font-size: 2rem;
   font-weight: bold;
   text-transform: uppercase;
-  margin-bottom: 15px;
+  margin-top: -20px;
   color: #333;
+  width: 3rem;
+  text-align: center;
 }
 .heroSection-company span {
   font-weight: 800;
@@ -910,8 +922,11 @@ body {
   font-size: 2.5rem;
   font-weight: bold;
   color: #000;
-  width: 40rem;
+  width: 45rem;
   margin: 0 auto 15px;
+  margin-top: 30px;
+  text-align: center;
+  max-width: 100%;
 }
 @media only screen and (max-width: 575.98px) {
   .heroSection-title {
@@ -937,7 +952,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-image: url("./../../../src/assets/me/dada_design-YmtlGsmTcgk-unsplash.jpg");
+  background-image: url("./../../../src/assets/images/mdel3ob9yrlrdb4rfttw.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -963,9 +978,10 @@ body {
 }
 .booknow-main-container {
   background-color: white;
-  height: 65%;
-  width: 30%;
-  padding: 4rem;
+  height: 40%;
+  width: 40%;
+  padding: 8rem;
+  padding-left: 4rem;
 }
 @media only screen and (max-width: 575.98px) {
   .booknow-main-container {
@@ -976,15 +992,18 @@ body {
 }
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
   .booknow-main-container {
-    height: 70%;
+    height: 60%;
     width: 90%;
     background-color: rgba(255, 255, 255, 0.5);
   }
 }
 .booknow-main-container-para {
-  font-weight: 500;
-  font-size: 3rem;
+  font-weight: 600;
+  font-size: 3.8rem;
   margin-bottom: 10rem;
+  color: rgb(27, 27, 27);
+  width: 28rem;
+  line-height: 5.2rem;
 }
 @media only screen and (max-width: 575.98px) {
   .booknow-main-container-para {
@@ -1003,17 +1022,20 @@ body {
   }
 }
 .booknow-main-container-book {
-  background-color: blue;
+  background-color: rgb(12, 12, 184);
   color: white;
-  width: 6rem;
-  height: 2rem;
+  height: 3.5rem;
+  width: 16rem;
   border: none;
-  border-radius: 2rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+  border-radius: 3rem;
   margin-bottom: 3rem;
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
+  justify-content: space-between;
+  padding: 0 2rem;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
 }
 @media only screen and (max-width: 575.98px) {
   .booknow-main-container-book {

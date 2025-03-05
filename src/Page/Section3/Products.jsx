@@ -51,7 +51,7 @@ const Products = () => {
     <>
       <section className="productList">
         <h2 className="productList-title">
-          Smart surveillance systems for your home and business
+          Smart surveillance systems for your home and business.
         </h2>
         <Swiper
           // className="productList-grid"

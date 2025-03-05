@@ -7,9 +7,9 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 60px 20px;
-  height: 50vh;
-  gap: 2rem;
+  // padding: 60px 20px;
+  height: 60vh;
+  // gap: 2rem;
 
   @include mix.respond(smallPhone) {
     height: 100%;
@@ -17,11 +17,13 @@
   }
 
   &-company {
-    font-size: 18px;
+    font-size: 2rem;
     font-weight: bold;
     text-transform: uppercase;
-    margin-bottom: 15px;
+    margin-top: -20px; // Added negative margin to reduce top gap
     color: #333;
+    width: 3rem; // Changed from 3rem to 100% for center alignment
+    text-align: center; // Explicitly set text alignment
 
     span {
       font-weight: 800;
@@ -32,8 +34,11 @@
     font-size: 2.5rem;
     font-weight: bold;
     color: #000;
-    width: 40rem;
+    width: 45rem;
     margin: 0 auto 15px;
+    margin-top: 30px;
+    text-align: center; // Explicitly set text alignment
+    max-width: 100%; // Added max-width to prevent overflow
 
     @include mix.respond(smallPhone) {
       width: 15rem;
