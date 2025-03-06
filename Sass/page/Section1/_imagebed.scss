@@ -376,7 +376,7 @@
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 3.5rem;
+  gap: 2.5rem;
 }
 .navigation__item {
   margin: 0.5rem;
@@ -418,7 +418,7 @@
   visibility: visible;
   width: 100%;
   opacity: 1;
-  background-color: #000000;
+  background-color: #f0f0f0;
 }
 .navigation__checkbox:checked ~ .navigation__background {
   transform: scale(60);
@@ -471,11 +471,13 @@
 }
 
 .navigation__item a {
-  color: #ffffff;
+  color: #000;
   text-decoration: none;
+  font-weight: 600;
+  font-size: 1.3rem;
 
   &.active {
-    color: #ffffff;
+    color: #000;
     background-color: transparent;
   }
 }
@@ -504,4 +506,16 @@
   overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
   overscroll-behavior: contain;
+}
+
+.navigation__item.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+
+  .nav-social-icon {
+    font-size: 1.5rem;
+    transition: color 0.3s;
+  }
 }

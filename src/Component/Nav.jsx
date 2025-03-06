@@ -156,6 +156,22 @@ const Nav = () => {
                 Contact
               </a>
             </li>
+            <li className="navigation__item social-icons">
+              <a href="" className="nav-social-icon" style={{ color: "#000" }}>
+                <FaFacebookF />
+              </a>
+              <a
+                href="https://www.instagram.com/dsleepstore?igsh=MWZvOXZjNmdyODlqYQ%3D%3D&utm_source=ig_contact_invite"
+                className="nav-social-icon"
+                style={{ color: "#000" }}
+                aria-label="Visit our Instagram"
+              >
+                <BsInstagram />
+              </a>
+              <a href="" className="nav-social-icon" style={{ color: "#000" }}>
+                <FaTwitter />
+              </a>
+            </li>
           </ul>
         </nav>
       </div>
