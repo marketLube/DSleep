@@ -4,11 +4,15 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --host",
+    "dev": "concurrently \"vite --host\" \"npm run sass\"",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "sass": "sass --watch Sass/main.scss:css/style.css -w"
+    "sass": "npm run compile:sass && concurrently \"sass --watch --poll --no-source-map sass/main.scss:styles/sassStyle.css\" \"npm run prefix:css\" \"npm run compress:css\" \"npm run concat:css\"",
+    "compile:sass": "sass sass/main.scss styles/sassStyle.css",
+    "compress:css": "sass styles/sassStyle.css styles/sassStyle.prefix.css --style=compressed",
+    "concat:css": "concat -o styles/style.concated.css styles/sassStyle.css",
+    "prefix:css": "postcss styles/sassStyle.css --use autoprefixer -o styles/sassStyle.prefixed.css"
   },
   "dependencies": {
     "react": "^19.0.0",
@@ -22,11 +26,16 @@
     "@types/react": "^19.0.8",
     "@types/react-dom": "^19.0.3",
     "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "concat": "^1.0.3",
+    "concurrently": "^9.1.2",
     "eslint": "^9.19.0",
     "eslint-plugin-react": "^7.37.4",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.18",
     "globals": "^15.14.0",
+    "postcss": "^8.5.3",
+    "postcss-cli": "^11.0.0",
     "vite": "^6.1.0"
   }
 }
