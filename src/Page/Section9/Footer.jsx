@@ -1,4 +1,11 @@
 import React from "react";
+import {
+  FaFacebook,
+  FaFacebookF,
+  FaInstagram,
+  FaTwitter,
+  FaWhatsapp,
+} from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -8,8 +15,12 @@ const Footer = () => {
           <div className="footer-container-sections-company">
             <h3>Company</h3>
             <ul>
-              <li>About Us</li>
-              <li>Our Services</li>
+              <li>
+                <a href="#about">About Us</a>
+              </li>
+              <li>
+                <a href="#service">Our Services</a>
+              </li>
               <li>Privacy Policy</li>
               <li>Terms & Conditions</li>
             </ul>
@@ -18,25 +29,47 @@ const Footer = () => {
           <div className="footer-container-sections-contact">
             <h3>Contact Info</h3>
             <ul>
-              <li>Email: info@mattress.com</li>
-              <li>Phone: +1 234 567 8900</li>
-              <li>Address: 123 Sleep Street</li>
+              <li>
+                Email:{" "}
+                <a href="mailto:calicutsleepstore@gmail.com">
+                  calicutsleepstore@gmail.com
+                </a>
+              </li>
+              <li>
+                Phone: <a href="tel:+918281002395">+91 8281002395</a>
+              </li>
+              <li>
+                Address: D Sleep Store, ground floor Opp. SP Bakery, Bhavooka
+                Square, Kundayithode
+              </li>
             </ul>
           </div>
 
           <div className="footer-container-sections-social">
             <h3>Follow Us</h3>
             <div className="social-icons">
-              <a href="#" aria-label="Facebook"><i className="fab fa-facebook"></i></a>
-              <a href="#" aria-label="Twitter"><i className="fab fa-twitter"></i></a>
-              <a href="#" aria-label="Instagram"><i className="fab fa-instagram"></i></a>
-              <a href="#" aria-label="LinkedIn"><i className="fab fa-linkedin"></i></a>
+              <a href="https://www.facebook.com" aria-label="Facebook">
+                <FaFacebookF />
+              </a>
+              <a href="https://twitter.com" aria-label="Twitter">
+                <FaTwitter />
+              </a>
+              <a href="https://www.instagram.com/dsleepstore?igsh=MWZvOXZjNmdyODlqYQ==&utm_source=ig_contact_invite">
+                <FaInstagram />
+              </a>
+              <a href="https://wa.me/918281002395" aria-label="WhatsApp">
+                <FaWhatsapp />
+              </a>
             </div>
           </div>
         </div>
 
         <div className="footer-container-copyright">
           <p>&copy; 2023 Mattress Company. All rights reserved.</p>
+          <span>
+            Made by{" "}
+            <a href="https://www.instagram.com/marketlube/">Market Lube</a>
+          </span>
         </div>
       </div>
     </section>

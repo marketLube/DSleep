@@ -6,7 +6,7 @@ import { LiaLongArrowAltRightSolid } from "react-icons/lia";
 
 const Productsdetails = () => {
   return (
-    <section className="productDetails">
+    <section className="productDetails" id="about">
       <div className="productDetails-container">
         <img
           src={bed}
@@ -26,7 +26,7 @@ const Productsdetails = () => {
           <button className="productDetails-container-details-button">
             Book Now
             {/* <FaArrowRightLong className="productDetails-container-details-button-icon" /> */}
-            <LiaLongArrowAltRightSolid className="productDetails-container-details-button-icon"/>
+            <LiaLongArrowAltRightSolid className="productDetails-container-details-button-icon" />
           </button>
           {/* <div className="productDetails-container-details-features">
             <div className="productDetails-container-details-features-item">

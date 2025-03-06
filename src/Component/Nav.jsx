@@ -1,4 +1,10 @@
-import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
+import { BsInstagram } from "react-icons/bs";
+import {
+  FaFacebook,
+  FaFacebookF,
+  FaInstagram,
+  FaTwitter,
+} from "react-icons/fa";
 const Nav = () => {
   const handleNavToggle = (e) => {
     document.body.classList.toggle("no-scroll", e.target.checked);
@@ -28,19 +34,24 @@ const Nav = () => {
           <a href="#projects">Projects</a>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <a href="https://wa.me/918281002395">Contact</a>
         </li>
       </ul>
       <div className="navbar-icons">
-        <button className="navbar-icons-button">
-          <FaFacebook className="navbar-icons-button-icon" />
-        </button>
-        <button className="navbar-icons-button">
-          <FaInstagram className="navbar-icons-button-icon" />
-        </button>
-        <button className="navbar-icons-button">
+        <a className="navbar-icons-button">
+          <FaFacebookF className="navbar-icons-button-icon" />
+        </a>
+        <a
+          href="https://www.instagram.com/dsleepstore?igsh=MWZvOXZjNmdyODlqYQ%3D%3D&utm_source=ig_contact_invite"
+          className="navbar-icons-button"
+          style={{ color: "#000" }}
+          aria-label="Visit our Instagram"
+        >
+          <BsInstagram className="navbar-icons-button-icon" />
+        </a>
+        <a className="navbar-icons-button">
           <FaTwitter className="navbar-icons-button-icon" />
-        </button>
+        </a>
       </div>
 
       <div className="navigation" aria-label="Navigation menu">
@@ -89,7 +100,10 @@ const Nav = () => {
               </a>
             </li>
             <li className="navigation__item">
-              <a href="#contact" aria-label="Contact us via WhatsApp">
+              <a
+                href="https://wa.me/918281002395"
+                aria-label="Contact us via WhatsApp"
+              >
                 Contact
               </a>
             </li>

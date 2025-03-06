@@ -29,7 +29,7 @@ const features = [
 
 const Why = () => {
   return (
-    <section className="whyProducts">
+    <section className="whyProducts" id="service">
       <div className="whyProducts-container">
         <h2 className="whyProducts-container-title">Why our products?</h2>
         <div className="whyProducts-container-grid">

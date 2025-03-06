@@ -4,7 +4,7 @@ const Imagebed = () => {
   return (
     <section className="bed">
       <Nav />
-      <div className="bed-container">
+      <div className="bed-container" id="home">
         <h2 className="bed-container-text">Better Sleep, Better Living</h2>
         <p className="bed-container-note">
           Wake up refreshed every morning! Experience superior comfort, quality,

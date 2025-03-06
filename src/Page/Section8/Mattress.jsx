@@ -2,12 +2,14 @@ import React from "react";
 
 const Mattress = () => {
   return (
-    <section className="mattress">
+    <section className="mattress" id="projects">
       <div className="mattress-container">
         <p className="mattress-container-para">
           "...one of the highest scoring beds we've tested."
         </p>
-        <div className="mattress-container-advice">MATTRESS ADVISOR</div>
+        <div className="mattress-container-advice">
+          <strong>MATTRESS</strong> ADVISOR
+        </div>
       </div>
     </section>
   );

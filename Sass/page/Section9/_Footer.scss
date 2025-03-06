@@ -36,6 +36,14 @@
           color: #666;
           cursor: pointer;
 
+          a {
+            color: #666;
+            text-decoration: none;
+            &:hover {
+              color: blue;
+            }
+          }
+
           &:hover {
             color: #333;
           }
@@ -52,7 +60,7 @@
           transition: color 0.3s ease;
 
           &:hover {
-            color: #333;
+            color: blue;
           }
         }
       }
@@ -63,7 +71,28 @@
       border-top: 1px solid #ddd;
       padding-top: 20px;
       color: #666;
+      span {
+        font-size: 0.8rem;
+        font-weight: 400;
+        color: #666;
+        margin-top: 1.5rem;
+        a {
+          color: #666;
+          text-decoration: none;
+          &:hover {
+            color: blue;
+          }
+        }
+      }
     }
+  }
+}
+
+.footer-container-sections-contact a {
+  color: #666;
+  text-decoration: none;
+  &:hover {
+    color: blue;
   }
 }
 

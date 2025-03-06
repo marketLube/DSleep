@@ -35,7 +35,7 @@
   }
 
   @include mix.respond(bigDesktop) {
-    height: 100vh;
+    height: 120vh;
     padding: 0rem;
   }
 
@@ -73,7 +73,7 @@
 
     @include mix.respond(bigDesktop) {
       padding: 5rem;
-      gap: 2rem;
+      gap: 4rem;
     }
 
     &-para {
@@ -109,13 +109,14 @@
       }
 
       @include mix.respond(bigDesktop) {
-        font-size: 4.5rem;
-        width: 68%;
+        font-size: 4rem;
+        width: 75%;
       }
     }
     &-advice {
       color: black;
       text-align: left;
+      letter-spacing: 0.2rem;
 
       @include mix.respond(smallPhone) {
         font-size: 1rem;
@@ -125,7 +126,6 @@
 
       @include mix.respond(phone) {
         font-size: 1rem;
-        // width: 90%;
       }
 
       @include mix.respond(tablets) {
@@ -134,17 +134,14 @@
 
       @include mix.respond(bigTablets) {
         font-size: 1.05rem;
-        // width: 70%;
       }
 
       @include mix.respond(desktop) {
         font-size: 1.05rem;
-        // width: 65%;
       }
 
       @include mix.respond(bigDesktop) {
-        font-size: 1rem;
-        // width: 60%;
+        font-size: 1.5rem;
       }
     }
   }
