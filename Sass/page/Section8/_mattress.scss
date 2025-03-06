@@ -3,7 +3,7 @@
 .mattress {
   background-color: antiquewhite;
   height: 100vh;
-  background-image: url("./../../../src/assets/me/zulian-firmansyah-3AvEi1EoIyM-unsplash.jpg");
+  background-image: url("https://res.cloudinary.com/dzuqczvb7/image/upload/v1741252954/zulian-firmansyah-3AvEi1EoIyM-unsplash_nlv5ez.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -18,7 +18,7 @@
   }
   @include mix.respond(tablets) {
     height: 100vh;
-    background-image: url("./../../../src/assets/me/zulian-firmansyah-3AvEi1EoIyM-unsplash.jpg");
+    background-image: url("https://res.cloudinary.com/dzuqczvb7/image/upload/v1741252954/zulian-firmansyah-3AvEi1EoIyM-unsplash_nlv5ez.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

@@ -1797,7 +1797,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-image: url("./../../../src/assets/images/mdel3ob9yrlrdb4rfttw.webp");
+  background-image: url("https://res.cloudinary.com/dzuqczvb7/image/upload/v1741252975/mdel3ob9yrlrdb4rfttw_svumy9.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2066,7 +2066,7 @@ body {
 .mattress {
   background-color: antiquewhite;
   height: 100vh;
-  background-image: url("./../../../src/assets/me/zulian-firmansyah-3AvEi1EoIyM-unsplash.jpg");
+  background-image: url("https://res.cloudinary.com/dzuqczvb7/image/upload/v1741252954/zulian-firmansyah-3AvEi1EoIyM-unsplash_nlv5ez.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2086,7 +2086,7 @@ body {
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
   .mattress {
     height: 100vh;
-    background-image: url("./../../../src/assets/me/zulian-firmansyah-3AvEi1EoIyM-unsplash.jpg");
+    background-image: url("https://res.cloudinary.com/dzuqczvb7/image/upload/v1741252954/zulian-firmansyah-3AvEi1EoIyM-unsplash_nlv5ez.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
