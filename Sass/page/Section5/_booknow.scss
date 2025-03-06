@@ -109,8 +109,7 @@
 
       @include mix.respond(bigDesktop) {
         height: 50%;
-        padding: 8rem;
-        padding-left: 4rem;
+        padding: 8rem 4rem;
       }
 
       @include mix.respond(bigTablets) {
@@ -179,6 +178,7 @@
           font-size: 2.5rem;
           margin-bottom: 7rem;
           line-height: 3.8rem;
+          width: 100%;
         }
       }
       &-book {

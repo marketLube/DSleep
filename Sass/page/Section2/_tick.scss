@@ -36,6 +36,11 @@
       color: black;
       width: 120px;
       height: 120px;
+      transition: transform 0.3s ease;
+
+      &:hover {
+        transform: scale(1.1);
+      }
 
       @include mix.respond(smallPhone) {
         width: 100px;

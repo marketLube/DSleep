@@ -36,12 +36,12 @@
 
   @include mix.respond(desktop) {
     padding: 5rem;
-    height: fit-content;
+    height: 100vh;
   }
 
   @include mix.respond(bigDesktop) {
     padding: 7rem;
-    // height: fit-content;
+    height: 100vh;
   }
 
   &-container {
@@ -126,7 +126,7 @@
     &-details {
       display: flex;
       flex-direction: column;
-      gap: 3.5rem;
+      gap: 3rem;
 
       @include mix.respond(smallPhone) {
         display: flex;
@@ -160,13 +160,13 @@
       @include mix.respond(desktop) {
         display: flex;
         flex-direction: column;
-        gap: 3rem;
+        gap: 2.5rem;
       }
 
       @include mix.respond(bigDesktop) {
         display: flex;
         flex-direction: column;
-        gap: 3rem;
+        gap: 2.5rem;
       }
 
       &-smallhead {

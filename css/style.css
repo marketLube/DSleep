@@ -51,6 +51,10 @@ body {
   color: black;
   width: 120px;
   height: 120px;
+  transition: transform 0.3s ease;
+}
+.featureList-item-icon:hover {
+  transform: scale(1.1);
 }
 @media only screen and (max-width: 575.98px) {
   .featureList-item-icon {
@@ -916,10 +920,11 @@ body {
   padding: 15px 30px;
   border-radius: 1.2rem;
   border: 2px solid blue;
-  font-size: 16px;
+  font-size: 18px;
   cursor: pointer;
   transition: all 0.3s ease;
   font-family: "Montserrat", sans-serif;
+  font-weight: 500;
 }
 @media only screen and (max-width: 575.98px) {
   .productList-buttons-explore, .productList-buttons-contact {
@@ -972,8 +977,8 @@ body {
 
 .blueline {
   width: 100%;
-  height: 2rem;
-  background-color: rgb(141, 217, 236);
+  height: 4rem;
+  background-color: #c0ddff;
 }
 
 .swiper {
@@ -1039,12 +1044,13 @@ body {
 @media only screen and (min-width: 1200px) and (max-width: 1399.98px) {
   .productDetails {
     padding: 5rem;
-    height: fit-content;
+    height: 100vh;
   }
 }
 @media only screen and (min-width: 1400px) and (max-width: 1699.98px) {
   .productDetails {
     padding: 7rem;
+    height: 100vh;
   }
 }
 .productDetails-container {
@@ -1141,7 +1147,7 @@ body {
 .productDetails-container-details {
   display: flex;
   flex-direction: column;
-  gap: 3.5rem;
+  gap: 3rem;
 }
 @media only screen and (max-width: 575.98px) {
   .productDetails-container-details {
@@ -1180,14 +1186,14 @@ body {
   .productDetails-container-details {
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 2.5rem;
   }
 }
 @media only screen and (min-width: 1400px) and (max-width: 1699.98px) {
   .productDetails-container-details {
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 2.5rem;
   }
 }
 .productDetails-container-details-smallhead {
@@ -1955,8 +1961,7 @@ body {
 @media only screen and (min-width: 1400px) and (max-width: 1699.98px) {
   .booknow-main-container {
     height: 50%;
-    padding: 8rem;
-    padding-left: 4rem;
+    padding: 8rem 4rem;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
@@ -2032,6 +2037,7 @@ body {
     font-size: 2.5rem;
     margin-bottom: 7rem;
     line-height: 3.8rem;
+    width: 100%;
   }
 }
 .booknow-main-container-book {

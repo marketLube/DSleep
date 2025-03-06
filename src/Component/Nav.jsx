@@ -14,7 +14,12 @@ const Nav = () => {
     e.preventDefault();
     const element = document.querySelector(sectionId);
     if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
+      setTimeout(() => {
+        element.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+        });
+      }, 100);
     }
 
     const checkbox = document.getElementById("navi__toggle");
@@ -66,7 +71,7 @@ const Nav = () => {
         </li>
       </ul>
       <div className="navbar-icons">
-        <a className="navbar-icons-button" href="">
+        <a className="navbar-icons-button" href="" style={{ color: "#000" }}>
           <FaFacebookF className="navbar-icons-button-icon" />
         </a>
         <a
@@ -77,7 +82,7 @@ const Nav = () => {
         >
           <BsInstagram className="navbar-icons-button-icon" />
         </a>
-        <a className="navbar-icons-button" href="">
+        <a className="navbar-icons-button" href="" style={{ color: "#000" }}>
           <FaTwitter className="navbar-icons-button-icon" />
         </a>
       </div>

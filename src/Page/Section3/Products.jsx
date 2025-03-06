@@ -1,5 +1,5 @@
 import React from "react";
-import  pillow from "./../../assets/products/pngwing.com.png";
+import pillow from "./../../assets/products/pngwing.com.png";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -38,7 +38,7 @@ const products = [
   },
   {
     id: 4,
-    image:  pillow,
+    image: pillow,
     title: "Lorem ipsum",
     price: "₹ 2999",
     msrp: "₹ 3999",
@@ -54,7 +54,6 @@ const Products = () => {
           Smart surveillance systems for your home and business.
         </h2>
         <Swiper
-          // className="productList-grid"
           slidesPerView={4}
           spaceBetween={100}
           pagination={{
@@ -88,6 +87,7 @@ const Products = () => {
           }}
           modules={[FreeMode, Pagination, Autoplay]}
           className="mySwiper"
+          style={{ minHeight: "400px" }}
         >
           {products.map((product) => (
             <SwiperSlide key={product.id} className="productList-item">
@@ -103,7 +103,10 @@ const Products = () => {
                 <span className="productList-item-msrp-strike">
                   {product.msrp}
                 </span>{" "}
-                <span className="productList-item-discount" style={{color: "rgb(150, 0, 0)"}} >
+                <span
+                  className="productList-item-discount"
+                  style={{ color: "rgb(150, 0, 0)" }}
+                >
                   {product.discount}
                 </span>
               </p>
@@ -111,10 +114,19 @@ const Products = () => {
           ))}
         </Swiper>
         <div className="productList-buttons">
-          <button className="productList-buttons-explore">
+          <button
+            className="productList-buttons-explore"
+            style={{ letterSpacing: "1px" }}
+          >
             Explore products
           </button>
-          <button className="productList-buttons-contact">
+          <button
+            className="productList-buttons-contact"
+            style={{
+              letterSpacing: "1px",
+              color: "#000",
+            }}
+          >
             Contact experts
           </button>
         </div>
