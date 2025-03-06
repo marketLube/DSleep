@@ -132,6 +132,7 @@
       font-size: 1.1rem;
       border-radius: 3rem;
       border: none;
+      background-color: #fff;
       font-weight: 600;
       box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
       cursor: pointer;
@@ -165,6 +166,7 @@
       font-size: 2rem;
       font-weight: 900;
       color: rgb(7, 7, 179);
+      line-height: 0.8;
 
       @include mix.respond(smallPhone) {
         font-size: 1.5rem;
