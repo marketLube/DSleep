@@ -1,39 +1,45 @@
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 const Nav = () => {
+  const handleNavToggle = (e) => {
+    document.body.classList.toggle("no-scroll", e.target.checked);
+  };
+
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <h1>
-          {/* <span>D</span>SLEEP <br /> COMPANY */}
+        <h1
+          onClick={() => (window.location.href = "#home")}
+          style={{ cursor: "pointer" }}
+        >
           DSLEEP <br /> COMPANY
         </h1>
       </div>
       <ul className="navbar-menu">
         <li>
-          <a href="#">Home</a>
+          <a href="#home">Home</a>
         </li>
         <li>
-          <a href="#">About</a>
+          <a href="#about">About</a>
         </li>
         <li>
-          <a href="#">Service</a>
+          <a href="#service">Service</a>
         </li>
         <li>
-          <a href="#">Projects</a>
+          <a href="#projects">Projects</a>
         </li>
         <li>
-          <a href="#">Contact</a>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
       <div className="navbar-icons">
         <button className="navbar-icons-button">
-          <FaFacebook className="navbar-icons-button-icon"/>
+          <FaFacebook className="navbar-icons-button-icon" />
         </button>
         <button className="navbar-icons-button">
-          <FaInstagram className="navbar-icons-button-icon"/>
+          <FaInstagram className="navbar-icons-button-icon" />
         </button>
         <button className="navbar-icons-button">
-          <FaTwitter className="navbar-icons-button-icon"/>
+          <FaTwitter className="navbar-icons-button-icon" />
         </button>
       </div>
 
@@ -45,6 +51,7 @@ const Nav = () => {
           className="navigation__checkbox"
           id="navi__toggle"
           aria-label="Toggle navigation"
+          onChange={handleNavToggle}
         />
         <label
           htmlFor="navi__toggle"
@@ -62,39 +69,27 @@ const Nav = () => {
         >
           <ul className="navigation__list" aria-label="Main navigation links">
             <li className="navigation__item">
-              <a
-                href="#about"
-                onClick={() => {
-                  scrollToSection("about");
-                  setIsChecked(false);
-                }}
-                aria-label="Navigate to About us section"
-              >
-                About us
+              <a href="#home" aria-label="Navigate to About us section">
+                Home
               </a>
             </li>
             <li className="navigation__item">
-              <a
-                href="#works"
-                onClick={() => {
-                  scrollToSection("works");
-                  setIsChecked(false);
-                }}
-                aria-label="Navigate to Our Works section"
-              >
-                Our Works
+              <a href="#about" aria-label="Navigate to About us section">
+                About
               </a>
             </li>
             <li className="navigation__item">
-              <a
-                href="https://wa.me/919995000123"
-                target="_blank"
-                onClick={() => {
-                  scrollToSection("contact");
-                  setIsChecked(false);
-                }}
-                aria-label="Contact us via WhatsApp"
-              >
+              <a href="#service" aria-label="Navigate to Our Works section">
+                Service
+              </a>
+            </li>
+            <li className="navigation__item">
+              <a href="#projects" aria-label="Navigate to Our Works section">
+                Projects
+              </a>
+            </li>
+            <li className="navigation__item">
+              <a href="#contact" aria-label="Contact us via WhatsApp">
                 Contact
               </a>
             </li>

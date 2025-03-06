@@ -3,16 +3,28 @@
 .featureList {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-
   align-items: center;
   gap: 0.5rem;
   padding: 10px;
   height: 20rem;
 
   @include mix.respond(smallPhone) {
-    height: 30rem;
+    height: fit-content;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    padding: 1rem 0;
+  }
+  @include mix.respond(phone) {
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 1rem 0;
+  }
+  @include mix.respond(tablets) {
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 2rem 0;
   }
 
   &-item {

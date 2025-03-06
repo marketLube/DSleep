@@ -12,13 +12,31 @@
     height: 80vh;
     padding: 2rem;
   }
-
+  @include mix.respond(phone) {
+    height: 85vh;
+    padding: 2.5rem;
+  }
   @include mix.respond(tablets) {
     height: 100vh;
-    background-image: url("./../../../src/assets/img1.jpg");
+    background-image: url("./../../../src/assets/me/zulian-firmansyah-3AvEi1EoIyM-unsplash.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+  }
+
+  @include mix.respond(bigTablets) {
+    height: 100vh;
+    padding: 0rem;
+  }
+
+  @include mix.respond(desktop) {
+    height: 100vh;
+    padding: 0rem;
+  }
+
+  @include mix.respond(bigDesktop) {
+    height: 100vh;
+    padding: 0rem;
   }
 
   &-container {
@@ -34,8 +52,28 @@
       gap: 0.5rem;
     }
 
+    @include mix.respond(phone) {
+      padding: 1rem;
+      gap: 1rem;
+    }
+
     @include mix.respond(tablets) {
       padding: 2rem;
+    }
+
+    @include mix.respond(bigTablets) {
+      padding: 3rem;
+      gap: 1.5rem;
+    }
+
+    @include mix.respond(desktop) {
+      padding: 4rem;
+      gap: 1.75rem;
+    }
+
+    @include mix.respond(bigDesktop) {
+      padding: 5rem;
+      gap: 2rem;
     }
 
     &-para {
@@ -50,8 +88,29 @@
         width: 100%;
       }
 
+      @include mix.respond(phone) {
+        font-size: 2rem;
+        width: 95%;
+      }
+
       @include mix.respond(tablets) {
         font-size: 3rem;
+        width: 80%;
+      }
+
+      @include mix.respond(bigTablets) {
+        font-size: 3.5rem;
+        width: 70%;
+      }
+
+      @include mix.respond(desktop) {
+        font-size: 4rem;
+        width: 65%;
+      }
+
+      @include mix.respond(bigDesktop) {
+        font-size: 4.5rem;
+        width: 68%;
       }
     }
     &-advice {
@@ -64,8 +123,28 @@
         text-align: right;
       }
 
+      @include mix.respond(phone) {
+        font-size: 1rem;
+        // width: 90%;
+      }
+
       @include mix.respond(tablets) {
         font-size: 1rem;
+      }
+
+      @include mix.respond(bigTablets) {
+        font-size: 1.05rem;
+        // width: 70%;
+      }
+
+      @include mix.respond(desktop) {
+        font-size: 1.05rem;
+        // width: 65%;
+      }
+
+      @include mix.respond(bigDesktop) {
+        font-size: 1rem;
+        // width: 60%;
       }
     }
   }
