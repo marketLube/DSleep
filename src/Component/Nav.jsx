@@ -10,11 +10,25 @@ const Nav = () => {
     document.body.classList.toggle("no-scroll", e.target.checked);
   };
 
+  const handleScrollToSection = (e, sectionId) => {
+    e.preventDefault();
+    const element = document.querySelector(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+
+    const checkbox = document.getElementById("navi__toggle");
+    if (checkbox.checked) {
+      checkbox.checked = false;
+      document.body.classList.remove("no-scroll");
+    }
+  };
+
   return (
     <nav className="navbar">
       <div className="navbar-logo">
         <h1
-          onClick={() => (window.location.href = "#home")}
+          onClick={(e) => handleScrollToSection(e, "#home")}
           style={{ cursor: "pointer" }}
         >
           DSLEEP <br /> COMPANY
@@ -22,23 +36,37 @@ const Nav = () => {
       </div>
       <ul className="navbar-menu">
         <li>
-          <a href="#home">Home</a>
+          <a href="#home" onClick={(e) => handleScrollToSection(e, "#home")}>
+            Home
+          </a>
         </li>
         <li>
-          <a href="#about">About</a>
+          <a href="#about" onClick={(e) => handleScrollToSection(e, "#about")}>
+            About
+          </a>
         </li>
         <li>
-          <a href="#service">Service</a>
+          <a
+            href="#service"
+            onClick={(e) => handleScrollToSection(e, "#service")}
+          >
+            Service
+          </a>
         </li>
         <li>
-          <a href="#projects">Projects</a>
+          <a
+            href="#projects"
+            onClick={(e) => handleScrollToSection(e, "#projects")}
+          >
+            Projects
+          </a>
         </li>
         <li>
           <a href="https://wa.me/918281002395">Contact</a>
         </li>
       </ul>
       <div className="navbar-icons">
-        <a className="navbar-icons-button">
+        <a className="navbar-icons-button" href="">
           <FaFacebookF className="navbar-icons-button-icon" />
         </a>
         <a
@@ -49,7 +77,7 @@ const Nav = () => {
         >
           <BsInstagram className="navbar-icons-button-icon" />
         </a>
-        <a className="navbar-icons-button">
+        <a className="navbar-icons-button" href="">
           <FaTwitter className="navbar-icons-button-icon" />
         </a>
       </div>
@@ -80,22 +108,38 @@ const Nav = () => {
         >
           <ul className="navigation__list" aria-label="Main navigation links">
             <li className="navigation__item">
-              <a href="#home" aria-label="Navigate to About us section">
+              <a
+                href="#home"
+                onClick={(e) => handleScrollToSection(e, "#home")}
+                aria-label="Navigate to Home section"
+              >
                 Home
               </a>
             </li>
             <li className="navigation__item">
-              <a href="#about" aria-label="Navigate to About us section">
+              <a
+                href="#about"
+                onClick={(e) => handleScrollToSection(e, "#about")}
+                aria-label="Navigate to About us section"
+              >
                 About
               </a>
             </li>
             <li className="navigation__item">
-              <a href="#service" aria-label="Navigate to Our Works section">
+              <a
+                href="#service"
+                onClick={(e) => handleScrollToSection(e, "#service")}
+                aria-label="Navigate to Our Works section"
+              >
                 Service
               </a>
             </li>
             <li className="navigation__item">
-              <a href="#projects" aria-label="Navigate to Our Works section">
+              <a
+                href="#projects"
+                onClick={(e) => handleScrollToSection(e, "#projects")}
+                aria-label="Navigate to Projects section"
+              >
                 Projects
               </a>
             </li>

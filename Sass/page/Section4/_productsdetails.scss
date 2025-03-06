@@ -280,7 +280,7 @@
         padding: 0 2rem;
         box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
         transition: all 0.3s ease;
-
+        font-family: "Montserrat", sans-serif;
         @include mix.respond(smallPhone) {
           width: fit-content;
           height: fit-content;

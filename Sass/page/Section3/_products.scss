@@ -276,6 +276,7 @@
       font-size: 16px;
       cursor: pointer;
       transition: all 0.3s ease;
+      font-family: "Montserrat", sans-serif;
 
       @include mix.respond(smallPhone) {
         padding: 0.5rem 1rem;

@@ -96,6 +96,19 @@
         font-size: 2rem;
         text-align: center;
       }
+      @include mix.respond(bigDesktop) {
+        font-size: 3.9rem;
+        text-align: center;
+        width: 80%;
+        padding-top: 1rem;
+      }
+
+      @include mix.respond(desktop) {
+        font-size: 3.9rem;
+        text-align: center;
+        width: 80%;
+        padding-top: 1rem;
+      }
     }
     &-note {
       display: flex;
@@ -138,6 +151,7 @@
       box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
       cursor: pointer;
       transition: all 0.3s ease;
+      font-family: "Montserrat", sans-serif;
       &:hover {
         box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
       }
@@ -161,6 +175,9 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 3rem;
+  @include mix.respond(smallPhone) {
+    padding: 1rem 1rem;
+  }
 
   &-logo {
     h1 {
