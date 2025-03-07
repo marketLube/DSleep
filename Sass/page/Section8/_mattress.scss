@@ -35,7 +35,7 @@
   }
 
   @include mix.respond(bigDesktop) {
-    height: 120vh;
+    height: 135vh;
     padding: 0rem;
   }
 
@@ -82,10 +82,14 @@
       font-size: 5rem;
       text-align: right;
       width: 60%;
+      @media screen and (min-width: 350px) and (max-width: 380px) {
+        width: 110% !important;
+        font-size: 1.45rem !important;
+      }
 
       @include mix.respond(smallPhone) {
         font-size: 1.45rem;
-        width: 100%;
+        width: 105%;
       }
 
       @include mix.respond(phone) {
@@ -119,13 +123,13 @@
       letter-spacing: 0.2rem;
 
       @include mix.respond(smallPhone) {
-        font-size: 1rem;
+        font-size: 0.8rem;
         width: 100%;
         text-align: right;
       }
 
       @include mix.respond(phone) {
-        font-size: 1rem;
+        font-size: 0.9rem;
       }
 
       @include mix.respond(tablets) {

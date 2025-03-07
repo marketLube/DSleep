@@ -107,8 +107,11 @@
       }
 
       @include mix.respond(bigDesktop) {
-        height: 50%;
-        padding: 8rem 4rem;
+        height: 70vh;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
       }
 
       @include mix.respond(bigTablets) {
@@ -175,7 +178,7 @@
 
         @include mix.respond(bigDesktop) {
           font-size: 2.5rem;
-          margin-bottom: 7rem;
+          margin-bottom: 0rem;
           line-height: 3.8rem;
           width: 100%;
         }

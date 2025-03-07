@@ -637,10 +637,18 @@ body {
   padding-left: 10rem;
   padding-right: 10rem;
 }
+@media screen and (min-width: 350px) and (max-width: 380px) {
+  .productList {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    height: 95vh !important;
+  }
+}
 @media only screen and (max-width: 575.98px) {
   .productList {
     padding-left: 1rem;
     padding-right: 1rem;
+    height: 75vh;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767.98px) {
@@ -939,10 +947,18 @@ body {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
 }
+@media screen and (min-width: 350px) and (max-width: 380px) {
+  .productList-buttons-explore, .productList-buttons-contact {
+    padding: 0.8rem 0.7rem !important;
+    font-size: 0.7rem !important;
+    border-radius: 0.7rem !important;
+  }
+}
 @media only screen and (max-width: 575.98px) {
   .productList-buttons-explore, .productList-buttons-contact {
-    padding: 0.5rem 1rem;
-    font-size: 0.9rem;
+    padding: 1rem 0.7rem;
+    font-size: 0.85rem;
+    border-radius: 0.7rem;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767.98px) {
@@ -1062,7 +1078,7 @@ body {
 }
 @media only screen and (min-width: 1400px) and (max-width: 1699.98px) {
   .productDetails {
-    padding: 7rem;
+    padding: 7rem 4rem;
     height: 100vh;
   }
 }
@@ -1114,7 +1130,7 @@ body {
   .productDetails-container {
     display: flex;
     flex-direction: row;
-    gap: 2rem;
+    gap: 8rem;
   }
 }
 .productDetails-container-image {
@@ -1153,8 +1169,8 @@ body {
 }
 @media only screen and (min-width: 1400px) and (max-width: 1699.98px) {
   .productDetails-container-image {
-    width: 45%;
-    height: 45%;
+    width: 35%;
+    height: 35%;
   }
 }
 .productDetails-container-details {
@@ -1447,6 +1463,7 @@ body {
 @media only screen and (min-width: 1400px) and (max-width: 1699.98px) {
   .whyProducts {
     padding: 5rem;
+    height: 100vh;
   }
 }
 .whyProducts-container {
@@ -1571,7 +1588,7 @@ body {
 }
 @media only screen and (min-width: 1400px) and (max-width: 1699.98px) {
   .whyProducts-container-grid {
-    gap: 4rem 2rem;
+    gap: 7rem 2rem;
   }
 }
 .whyProducts-container-item {
@@ -1695,10 +1712,18 @@ body {
   text-align: center;
   height: 60vh;
 }
+@media screen and (min-width: 350px) and (max-width: 380px) {
+  .heroSection {
+    height: 40vh !important;
+    padding: 2rem !important;
+    justify-content: space-around !important;
+  }
+}
 @media only screen and (max-width: 575.98px) {
   .heroSection {
-    height: 100%;
+    height: 35vh;
     padding: 2rem;
+    justify-content: space-around;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399.98px) {
@@ -1805,7 +1830,7 @@ body {
 }
 @media only screen and (max-width: 575.98px) {
   .heroSection-title {
-    font-size: 1.2rem;
+    font-size: 1.15rem;
     margin-top: 1rem;
     font-weight: 600;
     width: 100%;
@@ -1973,8 +1998,11 @@ body {
 }
 @media only screen and (min-width: 1400px) and (max-width: 1699.98px) {
   .booknow-main-container {
-    height: 50%;
-    padding: 8rem 4rem;
+    height: 70vh;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
@@ -2048,7 +2076,7 @@ body {
 @media only screen and (min-width: 1400px) and (max-width: 1699.98px) {
   .booknow-main-container-para {
     font-size: 2.5rem;
-    margin-bottom: 7rem;
+    margin-bottom: 0rem;
     line-height: 3.8rem;
     width: 100%;
   }
@@ -2168,7 +2196,7 @@ body {
 }
 @media only screen and (min-width: 1400px) and (max-width: 1699.98px) {
   .mattress {
-    height: 120vh;
+    height: 135vh;
     padding: 0rem;
   }
 }
@@ -2222,10 +2250,16 @@ body {
   text-align: right;
   width: 60%;
 }
+@media screen and (min-width: 350px) and (max-width: 380px) {
+  .mattress-container-para {
+    width: 110% !important;
+    font-size: 1.45rem !important;
+  }
+}
 @media only screen and (max-width: 575.98px) {
   .mattress-container-para {
     font-size: 1.45rem;
-    width: 100%;
+    width: 105%;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767.98px) {
@@ -2265,14 +2299,14 @@ body {
 }
 @media only screen and (max-width: 575.98px) {
   .mattress-container-advice {
-    font-size: 1rem;
+    font-size: 0.8rem;
     width: 100%;
     text-align: right;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767.98px) {
   .mattress-container-advice {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
@@ -2298,7 +2332,7 @@ body {
 
 .footer {
   background-color: #f0f0f0;
-  padding: 40px 20px;
+  padding: 40px 20px 10px 20px;
 }
 .footer-container {
   margin: 0 10%;
@@ -2387,5 +2421,3 @@ body {
     justify-content: center;
   }
 }
-
-/*# sourceMappingURL=sassStyle.css.map */

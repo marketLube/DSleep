@@ -30,6 +30,7 @@
 
   @include mix.respond(bigDesktop) {
     padding: 5rem;
+    height: 100vh;
   }
 
   &-container {
@@ -141,7 +142,7 @@
       }
 
       @include mix.respond(bigDesktop) {
-        gap: 4rem 2rem;
+        gap: 7rem 2rem;
       }
     }
 
