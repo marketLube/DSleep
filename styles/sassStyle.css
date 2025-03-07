@@ -2155,7 +2155,7 @@ body {
 
 .mattress {
   background-color: antiquewhite;
-  height: 100vh;
+  height: 115vh;
   background-image: url("https://res.cloudinary.com/dzuqczvb7/image/upload/v1741252954/zulian-firmansyah-3AvEi1EoIyM-unsplash_nlv5ez.jpg");
   background-size: cover;
   background-position: center;
@@ -2421,3 +2421,5 @@ body {
     justify-content: center;
   }
 }
+
+/*# sourceMappingURL=sassStyle.css.map */
