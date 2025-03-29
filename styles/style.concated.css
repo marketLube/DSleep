@@ -1003,28 +1003,20 @@ body {
   background: white;
   color: blue;
 }
-
-.blueline {
-  width: 100%;
-  height: 4rem;
-  background-color: #c0ddff;
-}
-
-.swiper {
+.productList .swiper {
   width: 100%;
   height: 100%;
 }
-
-.swiper-slide {
+.productList .swiper-slide {
   text-align: center;
   font-size: 18px;
   background: #f1f1f1;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-
-.swiper-slide img {
+.productList .swiper-slide img {
   display: block;
   width: 80%;
   height: 70%;
@@ -1032,14 +1024,20 @@ body {
   margin: 0 auto;
 }
 
+.blueline {
+  width: 100%;
+  height: 4rem;
+  background-color: #c0ddff;
+}
+
 .productDetails {
-  background-color: rgb(247, 247, 247);
+  background-color: #f1f1f1;
   display: flex;
   align-items: center;
   justify-content: left;
   height: 100vh;
   width: 100%;
-  padding: 15rem;
+  padding: 5rem 8.5rem;
 }
 @media only screen and (max-width: 575.98px) {
   .productDetails {
@@ -1078,13 +1076,13 @@ body {
 }
 @media only screen and (min-width: 1400px) and (max-width: 1699.98px) {
   .productDetails {
-    padding: 7rem 4rem;
+    padding: 7rem;
     height: 100vh;
   }
 }
 .productDetails-container {
   display: flex;
-  gap: 5rem;
+  gap: 10%;
   align-items: center;
   justify-content: center;
 }
@@ -1132,10 +1130,6 @@ body {
     flex-direction: row;
     gap: 8rem;
   }
-}
-.productDetails-container-image {
-  width: 35rem;
-  height: 37rem;
 }
 @media only screen and (max-width: 575.98px) {
   .productDetails-container-image {
@@ -1333,8 +1327,8 @@ body {
 }
 @media only screen and (min-width: 1400px) and (max-width: 1699.98px) {
   .productDetails-container-details-description {
-    font-size: 1.5rem;
-    width: 90%;
+    font-size: 1.25rem;
+    width: 75%;
   }
 }
 .productDetails-container-details-button {
@@ -1425,6 +1419,64 @@ body {
 .productDetails-container-details-features-item h5 {
   font-size: 1rem;
   font-weight: 400;
+}
+.productDetails .swiper-slide img {
+  width: 40%;
+  height: 80vh;
+  margin: 0;
+  object-fit: cover;
+  object-position: center;
+}
+@media only screen and (max-width: 575.98px) {
+  .productDetails .swiper-slide img {
+    width: 80%;
+    height: 40vh;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .productDetails .swiper-slide img {
+    width: 80%;
+    height: 40vh;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .productDetails .swiper-slide img {
+    width: 100%;
+    height: 40vh;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .productDetails .swiper-slide img {
+    width: 100%;
+    height: 40vh;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399.98px) {
+  .productDetails .swiper-slide img {
+    width: 80%;
+    height: 40vh;
+  }
+}
+@media only screen and (min-width: 1400px) and (max-width: 1699.98px) {
+  .productDetails .swiper-slide img {
+    width: 50%;
+    height: 70vh;
+  }
+}
+@media only screen and (max-width: 575.98px) {
+  .productDetails .swiper-pagination-bullet {
+    font-size: 2rem;
+  }
+}
+@media only screen and (max-width: 575.98px) {
+  .productDetails .swiper-button-prev::after {
+    font-size: 2rem;
+  }
+}
+@media only screen and (max-width: 575.98px) {
+  .productDetails .swiper-button-next::after {
+    font-size: 2rem;
+  }
 }
 
 .whyProducts {
@@ -2155,7 +2207,7 @@ body {
 
 .mattress {
   background-color: antiquewhite;
-  height: 100vh;
+  height: 115vh;
   background-image: url("https://res.cloudinary.com/dzuqczvb7/image/upload/v1741252954/zulian-firmansyah-3AvEi1EoIyM-unsplash_nlv5ez.jpg");
   background-size: cover;
   background-position: center;

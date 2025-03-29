@@ -1,13 +1,13 @@
 @use "./../../abstract/responsive" as mix;
 
 .productDetails {
-  background-color: rgb(247, 247, 247);
+  background-color: #f1f1f1;
   display: flex;
   align-items: center;
   justify-content: left;
   height: 100vh;
   width: 100%;
-  padding: 15rem;
+  padding: 5rem 8.5rem;
 
   @include mix.respond(smallPhone) {
     padding: 5px;
@@ -40,13 +40,13 @@
   }
 
   @include mix.respond(bigDesktop) {
-    padding: 7rem 4rem;
+    padding: 7rem;
     height: 100vh;
   }
 
   &-container {
     display: flex;
-    gap: 5rem;
+    gap: 10%;
     align-items: center;
     justify-content: center;
 
@@ -90,8 +90,8 @@
     }
 
     &-image {
-      width: 35rem;
-      height: 37rem;
+      // width: 30rem;
+      // height: 30rem;
 
       @include mix.respond(smallPhone) {
         width: 70%;
@@ -260,8 +260,8 @@
         }
 
         @include mix.respond(bigDesktop) {
-          font-size: 1.5rem;
-          width: 90%;
+          font-size: 1.25rem;
+          width: 75%;
         }
       }
       &-button {
@@ -349,6 +349,62 @@
           }
         }
       }
+    }
+  }
+
+  .swiper-slide img {
+    width: 40%;
+    height: 80vh;
+    margin: 0;
+    object-fit: cover;
+    object-position: center;
+
+    @include mix.respond(smallPhone) {
+      width: 80%;
+      height: 40vh;
+    }
+
+    @include mix.respond(phone) {
+      width: 80%;
+      height: 40vh;
+    }
+
+    @include mix.respond(tablets) {
+      width: 100%;
+      height: 40vh;
+    }
+
+    @include mix.respond(bigTablets) {
+      width: 100%;
+      height: 40vh;
+    }
+
+    @include mix.respond(desktop) {
+      width: 80%;
+      height: 40vh;
+    }
+
+    @include mix.respond(bigDesktop) {
+      width: 50%;
+      height: 70vh;
+    }
+  }
+
+  .swiper-pagination-bullet {
+    @include mix.respond(smallPhone) {
+      font-size: 2rem;
+    }
+  }
+
+  .swiper-button-prev::after {
+    @include mix.respond(smallPhone) {
+      font-size: 2rem;
+    }
+  }
+
+  .swiper-button-next::after {
+    @include mix.respond(smallPhone) {
+      font-size: 2rem;
     }
   }
 }
