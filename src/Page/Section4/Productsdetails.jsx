@@ -26,7 +26,7 @@ const productData = [
   },
   {
     id: 2,
-    image: pillow,
+    image: bed,
     smallHead: "Experience Comfort",
     head: "Luxury Pillow",
     description:
@@ -34,7 +34,7 @@ const productData = [
   },
   {
     id: 3,
-    image: bed7,
+    image: bed,
     smallHead: "Sleep in Style",
     head: "Bed Frame",
     description:
@@ -42,7 +42,7 @@ const productData = [
   },
   {
     id: 4,
-    image: bed3,
+    image: bed,
     smallHead: "Rest Easy",
     head: "Bedding Set",
     description:
@@ -50,7 +50,7 @@ const productData = [
   },
   {
     id: 5,
-    image: bed5,
+    image: bed,
     smallHead: "Ultimate Relaxation",
     head: "Recliner Chair",
     description:
@@ -58,7 +58,7 @@ const productData = [
   },
   {
     id: 6,
-    image: bed3,
+    image: bed,
     smallHead: "Sleep Like a King",
     head: "King Size Mattress",
     description:
@@ -66,7 +66,7 @@ const productData = [
   },
   {
     id: 7,
-    image: bed6,
+    image: bed,
     smallHead: "Cozy Up",
     head: "Throw Blanket",
     description:
@@ -74,7 +74,7 @@ const productData = [
   },
   {
     id: 8,
-    image: bed4,
+    image: bed,
     smallHead: "Perfect Fit",
     head: "Mattress Protector",
     description:
