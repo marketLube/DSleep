@@ -9,12 +9,17 @@ const Booknow = () => {
           <p className="booknow-main-container-para">
             Buy a set for the ultimate Dreamzy experience
           </p>
-          <button className="booknow-main-container-book">
-            Book Now
-            <span style={{ marginLeft: "0.5rem" }}>
-              <FaArrowRightLong />
-            </span>
-          </button>
+          <a
+            href="https://wa.me/918281002395"
+            style={{ textDecoration: "none" }}
+          >
+            <button className="booknow-main-container-book">
+              Book Now
+              <span style={{ marginLeft: "0.5rem" }}>
+                <FaArrowRightLong />
+              </span>
+            </button>
+          </a>
         </div>
       </div>
     </section>

@@ -124,10 +124,15 @@ const Productsdetails = () => {
                 <p className="productDetails-container-details-description">
                   {product.description}
                 </p>
-                <button className="productDetails-container-details-button">
-                  Book Now
-                  <LiaLongArrowAltRightSolid className="productDetails-container-details-button-icon" />
-                </button>
+                <a
+                  href="https://wa.me/918281002395"
+                  style={{ textDecoration: "none" }}
+                >
+                  <button className="productDetails-container-details-button">
+                    Book Now
+                    <LiaLongArrowAltRightSolid className="productDetails-container-details-button-icon" />
+                  </button>
+                </a>
               </div>
             </div>
           </SwiperSlide>
