@@ -18,7 +18,8 @@ import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 const productData = [
   {
     id: 1,
-    image: bed,
+    image:
+      "https://res.cloudinary.com/dzuqczvb7/image/upload/v1744833553/dsleep-03_o1ja3e.webp",
     smallHead: "Stay with us",
     head: "Mattress",
     description:
@@ -26,7 +27,8 @@ const productData = [
   },
   {
     id: 2,
-    image: bed,
+    image:
+      "https://res.cloudinary.com/dzuqczvb7/image/upload/v1744833553/dsleep-04_ueo8u6.webp",
     smallHead: "Experience Comfort",
     head: "Luxury Pillow",
     description:
@@ -34,7 +36,8 @@ const productData = [
   },
   {
     id: 3,
-    image: bed,
+    image:
+      "https://res.cloudinary.com/dzuqczvb7/image/upload/v1744833553/dsleep-05_brki16.webp",
     smallHead: "Sleep in Style",
     head: "Bed Frame",
     description:
@@ -42,44 +45,45 @@ const productData = [
   },
   {
     id: 4,
-    image: bed,
+    image:
+      "https://res.cloudinary.com/dzuqczvb7/image/upload/v1744833553/dsleep-06_aykhte.webp",
     smallHead: "Rest Easy",
     head: "Bedding Set",
     description:
       "Transform your sleep experience with our premium bedding sets. Soft, breathable fabrics that keep you cozy and comfortable all night long.",
   },
-  {
-    id: 5,
-    image: bed,
-    smallHead: "Ultimate Relaxation",
-    head: "Recliner Chair",
-    description:
-      "Unwind in our luxurious recliner chairs, designed for maximum comfort and support. Perfect for reading, watching TV, or taking a nap.",
-  },
-  {
-    id: 6,
-    image: bed,
-    smallHead: "Sleep Like a King",
-    head: "King Size Mattress",
-    description:
-      "Experience the ultimate in sleep luxury with our king size mattresses, providing ample space and unparalleled comfort for a restful night.",
-  },
-  {
-    id: 7,
-    image: bed,
-    smallHead: "Cozy Up",
-    head: "Throw Blanket",
-    description:
-      "Add warmth and style to your living space with our soft throw blankets, perfect for snuggling up on chilly evenings.",
-  },
-  {
-    id: 8,
-    image: bed,
-    smallHead: "Perfect Fit",
-    head: "Mattress Protector",
-    description:
-      "Protect your investment with our waterproof mattress protectors, designed to keep your mattress clean and prolong its life.",
-  },
+  // {
+  //   id: 5,
+  //   image: bed,
+  //   smallHead: "Ultimate Relaxation",
+  //   head: "Recliner Chair",
+  //   description:
+  //     "Unwind in our luxurious recliner chairs, designed for maximum comfort and support. Perfect for reading, watching TV, or taking a nap.",
+  // },
+  // {
+  //   id: 6,
+  //   image: bed,
+  //   smallHead: "Sleep Like a King",
+  //   head: "King Size Mattress",
+  //   description:
+  //     "Experience the ultimate in sleep luxury with our king size mattresses, providing ample space and unparalleled comfort for a restful night.",
+  // },
+  // {
+  //   id: 7,
+  //   image: bed,
+  //   smallHead: "Cozy Up",
+  //   head: "Throw Blanket",
+  //   description:
+  //     "Add warmth and style to your living space with our soft throw blankets, perfect for snuggling up on chilly evenings.",
+  // },
+  // {
+  //   id: 8,
+  //   image: bed,
+  //   smallHead: "Perfect Fit",
+  //   head: "Mattress Protector",
+  //   description:
+  //     "Protect your investment with our waterproof mattress protectors, designed to keep your mattress clean and prolong its life.",
+  // },
 ];
 
 const Productsdetails = () => {

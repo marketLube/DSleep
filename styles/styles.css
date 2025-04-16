@@ -1122,6 +1122,7 @@ body {
     display: flex;
     flex-direction: row;
     gap: 2rem;
+    padding-left: 8rem;
   }
 }
 @media only screen and (min-width: 1400px) and (max-width: 1699.98px) {
@@ -1129,6 +1130,7 @@ body {
     display: flex;
     flex-direction: row;
     gap: 8rem;
+    padding-left: 8rem;
   }
 }
 @media only screen and (max-width: 575.98px) {
@@ -1212,6 +1214,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+    padding-right: 8rem;
   }
 }
 @media only screen and (min-width: 1400px) and (max-width: 1699.98px) {
@@ -1219,6 +1222,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
+    padding-right: 8rem;
   }
 }
 .productDetails-container-details-smallhead {
@@ -2240,10 +2244,11 @@ body {
 .mattress {
   background-color: antiquewhite;
   height: 115vh;
-  background-image: url("https://res.cloudinary.com/dzuqczvb7/image/upload/v1741252954/zulian-firmansyah-3AvEi1EoIyM-unsplash_nlv5ez.jpg");
+  background-image: url("https://res.cloudinary.com/dzuqczvb7/image/upload/v1744833553/dsleep-01_lswz9x.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  color: white !important;
 }
 @media only screen and (max-width: 575.98px) {
   .mattress {
@@ -2260,7 +2265,7 @@ body {
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
   .mattress {
     height: 100vh;
-    background-image: url("https://res.cloudinary.com/dzuqczvb7/image/upload/v1741252954/zulian-firmansyah-3AvEi1EoIyM-unsplash_nlv5ez.jpg");
+    background-image: url("https://res.cloudinary.com/dzuqczvb7/image/upload/v1744833553/dsleep-01_lswz9x.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

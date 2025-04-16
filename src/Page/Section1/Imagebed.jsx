@@ -10,7 +10,10 @@ const Imagebed = () => {
           Wake up refreshed every morning! Experience superior comfort, quality,
           and support with our expertly crafted mattresses.{" "}
         </p>
-        <button className="bed-container-button">Shop now</button>
+
+        <a href="https://wa.me/918281002395" style={{ textDecoration: "none" }}>
+          <button className="bed-container-button">Shop now</button>{" "}
+        </a>
       </div>
     </section>
   );

@@ -81,17 +81,19 @@
       display: flex;
       flex-direction: row;
       gap: 2rem;
+      padding-left: 8rem;
     }
 
     @include mix.respond(bigDesktop) {
       display: flex;
       flex-direction: row;
       gap: 8rem;
+      padding-left: 8rem;
     }
 
     &-image {
-      // width: 30rem;
-      // height: 30rem;
+      // width: 20rem;
+      // height: 40rem;
 
       @include mix.respond(smallPhone) {
         width: 70%;
@@ -163,12 +165,14 @@
         display: flex;
         flex-direction: column;
         gap: 1.5rem;
+        padding-right: 8rem;
       }
 
       @include mix.respond(bigDesktop) {
         display: flex;
         flex-direction: column;
         gap: 2.5rem;
+        padding-right: 8rem;
       }
 
       &-smallhead {
