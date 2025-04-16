@@ -5,6 +5,7 @@ import {
   FaInstagram,
   FaTwitter,
 } from "react-icons/fa";
+
 const Nav = () => {
   const handleNavToggle = (e) => {
     document.body.classList.toggle("no-scroll", e.target.checked);
@@ -31,13 +32,17 @@ const Nav = () => {
 
   return (
     <nav className="navbar">
-      <div className="navbar-logo">
-        <h1
+      <div
+        className="navbar-logo"
+        onClick={(e) => handleScrollToSection(e, "#home")}
+      >
+        {/* <h1
           onClick={(e) => handleScrollToSection(e, "#home")}
           style={{ cursor: "pointer" }}
         >
           DSLEEP <br /> COMPANY
-        </h1>
+        </h1> */}
+        <img src="/LOgo.png" alt="" />
       </div>
       <ul className="navbar-menu">
         <li>

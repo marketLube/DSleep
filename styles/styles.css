@@ -260,6 +260,13 @@ body {
     padding: 1rem 1rem;
   }
 }
+.navbar-logo {
+  cursor: pointer;
+}
+.navbar-logo img {
+  width: 100px;
+  height: 100px;
+}
 .navbar-logo h1 {
   font-size: 2rem;
   font-weight: 900;
