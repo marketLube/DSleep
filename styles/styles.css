@@ -1977,7 +1977,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-image: url("https://res.cloudinary.com/dzuqczvb7/image/upload/v1744833553/dsleep-02_sn45rf.webp");
+  background-image: url("https://res.cloudinary.com/dzuqczvb7/image/upload/v1744821377/universal_upscale_0_5bbf57f3-1447-4124-8e7e-597e2785382a_0_dfsscf.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2250,7 +2250,7 @@ body {
 .mattress {
   background-color: antiquewhite;
   height: 115vh;
-  background-image: url("https://res.cloudinary.com/dzuqczvb7/image/upload/v1744833553/dsleep-01_lswz9x.webp");
+  background-image: url("https://res.cloudinary.com/dzuqczvb7/image/upload/v1744833553/dsleep-02_sn45rf.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2271,7 +2271,7 @@ body {
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
   .mattress {
     height: 100vh;
-    background-image: url("https://res.cloudinary.com/dzuqczvb7/image/upload/v1744833553/dsleep-01_lswz9x.webp");
+    background-image: url("https://res.cloudinary.com/dzuqczvb7/image/upload/v1744833553/dsleep-02_sn45rf.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
