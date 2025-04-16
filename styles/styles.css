@@ -906,6 +906,7 @@ body {
 }
 .productList-buttons {
   margin-top: 1rem;
+  display: none;
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -1366,7 +1367,8 @@ body {
     padding: 0.5rem 1rem;
     font-size: 1rem;
     margin-bottom: 0px;
-    margin-top: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767.98px) {
