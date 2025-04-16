@@ -54,21 +54,25 @@
     @include mix.respond(smallPhone) {
       font-size: 1.4rem;
       margin-bottom: 2rem;
+      margin-top: 1rem;
     }
 
     @include mix.respond(phone) {
       font-size: 1.6rem;
       margin-bottom: 2rem;
+      margin-top: 1rem;
     }
 
     @include mix.respond(tablets) {
       font-size: 1.8rem;
       margin-bottom: 2rem;
+      margin-top: 1rem;
     }
 
     @include mix.respond(bigTablets) {
       font-size: 2rem;
       margin-bottom: 2rem;
+      margin-top: 1rem;
     }
 
     @include mix.respond(desktop) {

@@ -99,7 +99,12 @@ const Products = () => {
                 alt={product.title}
                 className="productList-item-image"
               />
-              <h3 className="productList-item-title">{product.title}</h3>
+              <h3
+                className="productList-item-title"
+                style={{ marginTop: "1rem" }}
+              >
+                {product.title}
+              </h3>
               <p className="productList-item-price">{product.price}</p>
               <p className="productList-item-msrp">
                 MRP:{" "}
