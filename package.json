@@ -8,12 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "sass": "npm run compile:sass && concurrently \"sass --watch --poll --no-source-map sass/main.scss:styles/sassStyle.css\" \"npm run prefix:css\" \"npm run compress:css\" \"npm run watch:concat\"",
-    "compile:sass": "sass sass/main.scss styles/sassStyle.css",
-    "compress:css": "sass styles/sassStyle.css styles/sassStyle.prefix.css --style=compressed",
-    "concat:css": "concat -o styles/style.concated.css styles/sassStyle.css",
-    "prefix:css": "postcss styles/sassStyle.css --use autoprefixer -o styles/sassStyle.prefixed.css",
-    "watch:concat": "chokidar \"styles/sassStyle.css\" -c \"npm run concat:css\""
+    "sass": "sass --watch --poll --no-source-map sass/main.scss:styles/styles.css"
   },
   "dependencies": {
     "react": "^19.0.0",
