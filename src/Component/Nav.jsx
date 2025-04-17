@@ -1,10 +1,5 @@
 import { BsInstagram } from "react-icons/bs";
-import {
-  FaFacebook,
-  FaFacebookF,
-  FaInstagram,
-  FaTwitter,
-} from "react-icons/fa";
+import { FaFacebookF, FaTwitter } from "react-icons/fa";
 
 const Nav = () => {
   const handleNavToggle = (e) => {
@@ -36,12 +31,6 @@ const Nav = () => {
         className="navbar-logo"
         onClick={(e) => handleScrollToSection(e, "#home")}
       >
-        {/* <h1
-          onClick={(e) => handleScrollToSection(e, "#home")}
-          style={{ cursor: "pointer" }}
-        >
-          DSLEEP <br /> COMPANY
-        </h1> */}
         <img src="/LOgo.png" alt="" />
       </div>
       <ul className="navbar-menu">

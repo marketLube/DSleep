@@ -1,5 +1,3 @@
-import React from "react";
-
 const Blue = () => {
   return (
     <section className="heroSection">
@@ -14,5 +12,4 @@ const Blue = () => {
     </section>
   );
 };
-
 export default Blue;

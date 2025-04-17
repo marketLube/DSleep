@@ -1,12 +1,3 @@
-import React, { useState } from "react";
-import bed from "./../../assets/images/bed.webp";
-import pillow from "./../../assets/products/2.jpg";
-import bed3 from "./../../assets/products/3.jpg";
-import bed4 from "./../../assets/products/4.jpg";
-import bed5 from "./../../assets/products/5.jpg";
-import bed6 from "./../../assets/products/6.jpg";
-import bed7 from "./../../assets/products/7.jpg";
-
 import { LiaLongArrowAltRightSolid } from "react-icons/lia";
 import { Swiper, SwiperSlide } from "swiper/react";
 
