@@ -19,71 +19,58 @@ const productData = [
   {
     id: 1,
     image:
-      "https://res.cloudinary.com/dzuqczvb7/image/upload/v1744833553/dsleep-03_o1ja3e.webp",
+      "https://res.cloudinary.com/dzuqczvb7/image/upload/v1744833553/dsleep-05_brki16.webp",
     smallHead: "Stay with us",
     head: "Mattress",
     description:
-      "Sleep better with our expertly designed mattresses. Engineered for superior comfort, breathability, and spinal alignment, they provide long-lasting support for a rejuvenating night's rest.",
+      "Discover dSleepStore's premium range of mattresses designed for optimal support, restfulsleep, and long-lasting durability – perfect for Calicut’s climate and lifestyle needs.",
   },
   {
     id: 2,
     image:
       "https://res.cloudinary.com/dzuqczvb7/image/upload/v1744833553/dsleep-04_ueo8u6.webp",
     smallHead: "Experience Comfort",
-    head: "Luxury Pillow",
+    head: "Memory Foam Pillows",
     description:
       "Indulge in our luxury pillows designed for ultimate comfort and support. Perfect for all sleeping positions, they ensure a restful night's sleep.",
   },
   {
     id: 3,
     image:
-      "https://res.cloudinary.com/dzuqczvb7/image/upload/v1744833553/dsleep-05_brki16.webp",
+      "https://res.cloudinary.com/dzuqczvb7/image/upload/v1744893429/3d_Latex_Massage_Pillow_qi0hbq.jpg",
     smallHead: "Sleep in Style",
-    head: "Bed Frame",
+    head: "Latex Foam Pillows",
     description:
-      "Elevate your bedroom with our stylish bed frames. Crafted with quality materials, they provide both durability and elegance to your space.",
+      "Naturally breathable and hypoallergenic, our latex foam pillows offer firm support and cool comfort – perfect for a healthier, eco-friendly sleep experience in Kerala.",
   },
   {
-    id: 4,
+    id: 5,
     image:
-      "https://res.cloudinary.com/dzuqczvb7/image/upload/v1744833553/dsleep-06_aykhte.webp",
-    smallHead: "Rest Easy",
-    head: "Bedding Set",
+      "https://res.cloudinary.com/dzuqczvb7/image/upload/v1744833553/dsleep-03_o1ja3e.webp",
+    smallHead: "Ultimate Relaxation",
+    head: "Comforters",
     description:
-      "Transform your sleep experience with our premium bedding sets. Soft, breathable fabrics that keep you cozy and comfortable all night long.",
+      "Soft, cozy, and lightweight – our comforters are crafted for Kerala’s changing climate, ensuring a warm yet breathable sleep all year round.",
   },
-  // {
-  //   id: 5,
-  //   image: bed,
-  //   smallHead: "Ultimate Relaxation",
-  //   head: "Recliner Chair",
-  //   description:
-  //     "Unwind in our luxurious recliner chairs, designed for maximum comfort and support. Perfect for reading, watching TV, or taking a nap.",
-  // },
-  // {
-  //   id: 6,
-  //   image: bed,
-  //   smallHead: "Sleep Like a King",
-  //   head: "King Size Mattress",
-  //   description:
-  //     "Experience the ultimate in sleep luxury with our king size mattresses, providing ample space and unparalleled comfort for a restful night.",
-  // },
-  // {
-  //   id: 7,
-  //   image: bed,
-  //   smallHead: "Cozy Up",
-  //   head: "Throw Blanket",
-  //   description:
-  //     "Add warmth and style to your living space with our soft throw blankets, perfect for snuggling up on chilly evenings.",
-  // },
-  // {
-  //   id: 8,
-  //   image: bed,
-  //   smallHead: "Perfect Fit",
-  //   head: "Mattress Protector",
-  //   description:
-  //     "Protect your investment with our waterproof mattress protectors, designed to keep your mattress clean and prolong its life.",
-  // },
+  {
+    id: 6,
+    image:
+      "https://res.cloudinary.com/dzuqczvb7/image/upload/v1744893698/1062496-1_n9zcff.webp",
+    smallHead: "Sleep Like a King",
+    head: "Bedsheets",
+    description:
+      "Premium bedsheets in elegant designs and soft fabrics. Fade-resistant, breathable, and comfortable – perfect for everyday luxury and long-lasting freshness.",
+  },
+  {
+    id: 7,
+    image:
+      "https://res.cloudinary.com/dzuqczvb7/image/upload/v1744893969/amazonlistinggreyprotector4_1000x1000pxhighresolution_47fcb2c2-7cfb-43ae-900f-a6f9d007196a_ygdfd5.webp",
+
+    smallHead: "Cozy Up",
+    head: "Waterproof Protectors",
+    description:
+      "Shield your mattress from spills, sweat, and dust with our breathable, noiseless waterproof protectors. A must-have for hygiene, durability, and peace of mind.",
+  },
 ];
 
 const Productsdetails = () => {

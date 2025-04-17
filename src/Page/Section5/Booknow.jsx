@@ -7,7 +7,8 @@ const Booknow = () => {
         <div></div>
         <div className="booknow-main-container">
           <p className="booknow-main-container-para">
-            Buy a set for the ultimate Dreamzy experience
+            Mattresses That Calicut Loves – Backed by Science, Built for
+            Comfort.
           </p>
           <a
             href="https://wa.me/918281002395"

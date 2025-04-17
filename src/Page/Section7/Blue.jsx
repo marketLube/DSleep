@@ -7,8 +7,8 @@ const Blue = () => {
         DSLEEP <span>COMPANY</span>
       </h3>
       <h1 className="heroSection-title">
-        Rest easy with our 100-night trial. Experience superior comfort and
-        quality, risk-free. Love it or return it
+        Had an amazing experience at D Sleep Store in Calicut! The store has a
+        great collection of mattresses and pillows
       </h1>
       <p className="heroSection-subtitle">Your best sleep starts here</p>
     </section>

@@ -1,7 +1,7 @@
 @use "./../../abstract/responsive" as mix;
 
 .bed {
-  height: 140vh;
+  height: 100vh;
   width: 100%;
 
   background-image: linear-gradient(
@@ -9,7 +9,7 @@
       rgba(255, 255, 255, 1) 0%,
       rgba(255, 255, 255, 0) 35%
     ),
-    url("https://res.cloudinary.com/dzuqczvb7/image/upload/v1744820786/xj48254mxsaojltznoyt.jpg");
+    url("https://res.cloudinary.com/dzuqczvb7/image/upload/v1744871760/universal_upscale_0_39c1f47b-7002-443f-9bd4-bec44f36e3e5_0a_ofjvnm.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -22,7 +22,7 @@
         rgba(255, 255, 255, 1) 30%,
         rgba(255, 255, 255, 0) 85%
       ),
-      url("https://res.cloudinary.com/dzuqczvb7/image/upload/v1744820786/xj48254mxsaojltznoyt.jpg");
+      url("https://res.cloudinary.com/dzuqczvb7/image/upload/v1744871760/universal_upscale_0_39c1f47b-7002-443f-9bd4-bec44f36e3e5_0a_ofjvnm.png");
   }
   @include mix.respond(phone) {
     height: 100vh;
@@ -32,7 +32,7 @@
         rgba(255, 255, 255, 1) 30%,
         rgba(255, 255, 255, 0) 85%
       ),
-      url("https://res.cloudinary.com/dzuqczvb7/image/upload/v1744820786/xj48254mxsaojltznoyt.jpg");
+      url("https://res.cloudinary.com/dzuqczvb7/image/upload/v1744871760/universal_upscale_0_39c1f47b-7002-443f-9bd4-bec44f36e3e5_0a_ofjvnm.png");
   }
   @include mix.respond(tablets) {
     height: 100vh;
@@ -43,8 +43,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
-    padding-top: 5rem;
+    gap: 1rem;
 
     @include mix.respond(smallPhone) {
       display: flex;
@@ -72,10 +71,11 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      flex-direction: column;
       color: #000000;
       font-size: 4rem;
       font-weight: 600;
-      width: 50%;
+
       height: 20%;
       text-align: center;
 
@@ -99,14 +99,14 @@
       @include mix.respond(bigDesktop) {
         font-size: 3.9rem;
         text-align: center;
-        width: 80%;
+        width: 60%;
         padding-top: 1rem;
       }
 
       @include mix.respond(desktop) {
         font-size: 3.9rem;
         text-align: center;
-        width: 80%;
+        width: 60%;
         padding-top: 1rem;
       }
     }
@@ -117,7 +117,7 @@
       text-align: center;
       font-size: 1.3rem;
       color: #000000;
-      width: 40%;
+      width: 50%;
       line-height: 1.5;
       font-weight: 500;
 
@@ -141,8 +141,8 @@
       align-items: center;
       justify-content: center;
       text-align: center;
-      height: 4rem;
-      width: 11rem;
+      height: 3rem;
+      width: 9rem;
       font-size: 1.1rem;
       border-radius: 3rem;
       border: none;

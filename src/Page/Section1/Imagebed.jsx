@@ -5,10 +5,10 @@ const Imagebed = () => {
     <section className="bed">
       <Nav />
       <div className="bed-container" id="home">
-        <h2 className="bed-container-text">Better Sleep, Better Living</h2>
+        <h1 className="bed-container-text">Best Mattress Store in Calicut</h1>
         <p className="bed-container-note">
-          Wake up refreshed every morning! Experience superior comfort, quality,
-          and support with our expertly crafted mattresses.{" "}
+          Shop premium mattresses, orthopedic pillows, and sleep accessories
+          designed for unmatched comfort, in Calicut.
         </p>
 
         <a href="https://wa.me/918281002395" style={{ textDecoration: "none" }}>
