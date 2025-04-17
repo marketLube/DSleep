@@ -53,9 +53,7 @@ const Products = () => {
   return (
     <>
       <section className="productList">
-        <h2 className="productList-title">
-          Smart surveillance systems for your home and business.
-        </h2>
+        <h2 className="productList-title">Find the products you love</h2>
         <Swiper
           slidesPerView={4}
           spaceBetween={100}

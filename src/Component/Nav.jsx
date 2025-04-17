@@ -9,6 +9,7 @@ const Nav = () => {
   const handleScrollToSection = (e, sectionId) => {
     e.preventDefault();
     const element = document.querySelector(sectionId);
+
     if (element) {
       setTimeout(() => {
         element.scrollIntoView({
