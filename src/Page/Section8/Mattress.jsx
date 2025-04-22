@@ -5,7 +5,8 @@ const Mattress = () => {
     <section className="mattress" id="projects">
       <div className="mattress-container">
         <p className="mattress-container-para" style={{ color: "white" }}>
-          "...one of the highest scoring beds we've tested."
+          &quot;Experience Every Mattress Before You Buy – Only at D Sleep
+          Store.&quot;
         </p>
         <div className="mattress-container-advice" style={{ color: "white" }}>
           <strong>MATTRESS</strong> ADVISOR

@@ -1,11 +1,11 @@
 import React from "react";
 
-import icon1 from "./../../assets/company icons/images (1).png";
-import icon2 from "./../../assets/company icons/images.jfif";
-import icon3 from "./../../assets/company icons/images.png";
-import icon4 from "./../../assets/company icons/sunday_rest_logo.jfif";
-import icon5 from "./../../assets/company icons/kurl-on.jfif";
-import icon6 from "./../../assets/company icons/sleepwell.jpg";
+import icon1 from "../../assets/logos/dsleep-01.svg";
+import icon2 from "../../assets/logos/dsleep-02.svg";
+import icon3 from "../../assets/logos/dsleep-03.svg";
+import icon4 from "../../assets/logos/dsleep-04.svg";
+import icon5 from "../../assets/logos/dsleep-05.svg";
+import icon6 from "../../assets/logos/dsleep-06.svg";
 
 const Tick = () => {
   const logos = [icon1, icon2, icon3, icon6, icon4, icon5];

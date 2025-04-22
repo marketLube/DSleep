@@ -68,7 +68,7 @@ const Footer = () => {
           <p>&copy; 2023 Mattress Company. All rights reserved.</p>
           <span>
             Made by{" "}
-            <a href="https://www.instagram.com/marketlube/">Market Lube</a>
+            <a href="https://www.instagram.com/marketlube/">marketlube</a>
           </span>
         </div>
       </div>

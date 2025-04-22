@@ -16,27 +16,27 @@ const products = [
     image:
       "https://res.cloudinary.com/dzuqczvb7/image/upload/v1744835411/634_4AED42_OFF__100_1_kfcz4e.webp",
     title: "Latex Bed",
-    price: "₹ 3499",
-    msrp: "₹ 4999",
-    discount: "30%",
+    price: "₹ 15000",
+    msrp: "₹ 20000",
+    discount: "25%",
   },
   {
     id: 2,
     image:
       "https://res.cloudinary.com/dzuqczvb7/image/upload/v1744835411/65a2edf9e032a94b5a119df8-serwall-luxury-solid-down-alternative_oqvymz.jpg",
     title: "Comforter",
-    price: "₹ 2449",
+    price: "₹ 2999",
     msrp: "₹ 3499",
-    discount: "30%",
+    discount: "25%",
   },
   {
     id: 3,
     image:
       "https://res.cloudinary.com/dzuqczvb7/image/upload/v1744835411/1_accb13e5-2194-46e7-af25-a87fb47e9e08_c8z8ta.webp",
     title: "Pillow",
-    price: "₹ 1199",
-    msrp: "₹ 1499",
-    discount: "20%",
+    price: "₹ 1999",
+    msrp: "₹ 2999",
+    discount: "33.5%",
   },
 
   // {
