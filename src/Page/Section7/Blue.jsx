@@ -2,7 +2,7 @@ const Blue = () => {
   return (
     <section className="heroSection">
       <h3 className="heroSection-company">
-        DSLEEP <span>COMPANY</span>
+        DSLEEP <span>STORE</span>
       </h3>
       <h1 className="heroSection-title">
         Had an amazing experience at D Sleep Store in Calicut! The store has a

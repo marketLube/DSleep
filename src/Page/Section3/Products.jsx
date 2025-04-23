@@ -1,5 +1,3 @@
-import pillow from "./../../assets/products/pngwing.com.png";
-
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles

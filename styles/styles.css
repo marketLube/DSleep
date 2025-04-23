@@ -63,6 +63,19 @@ body {
     border-radius: 5px;
   }
 }
+.featureList-item img {
+  max-height: fit-content;
+}
+@media only screen and (max-width: 575.98px) {
+  .featureList-item img {
+    max-height: 1.5rem;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .featureList-item img {
+    max-height: 1.5rem;
+  }
+}
 .featureList-item-title {
   font-size: 16px;
   font-weight: bold;
