@@ -50,7 +50,7 @@
     }
 
     & img {
-      max-height: fit-content;
+      max-height: 2.2rem;
 
       @include mix.respond(smallPhone) {
         max-height: 1.5rem;

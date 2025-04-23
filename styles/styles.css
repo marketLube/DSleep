@@ -64,7 +64,7 @@ body {
   }
 }
 .featureList-item img {
-  max-height: fit-content;
+  max-height: 2.2rem;
 }
 @media only screen and (max-width: 575.98px) {
   .featureList-item img {
