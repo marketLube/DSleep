@@ -8,17 +8,23 @@ import icon5 from "../../assets/logos/dsleep-05.svg";
 import icon6 from "../../assets/logos/dsleep-06.svg";
 import icon7 from "../../assets/logos/mmform.webp";
 import icon8 from "../../assets/logos/kurlon.webp";
+import icon9 from "../../assets/logos/sundayMattress.png";
 
 const Tick = () => {
-  const logos = [icon1, icon2, icon3, icon6, icon4, icon5, icon7, icon8];
+  const logos = [icon1, icon2, icon3, icon6, icon4, icon5, icon7, icon8, icon9];
 
   const style = (val) => {
     let styles = {};
+    const isPhone = window.innerWidth <= 768; // Check if the device is a phone
+
     if (val === 6) {
-      styles = { maxHeight: "fit-content", width: "8rem" };
+      styles = { maxHeight: "fit-content", width: isPhone ? "5rem" : "8rem" };
     }
     if (val === 7) {
-      styles = { maxHeight: "fit-content" };
+      styles = { maxHeight: isPhone ? "2.2rem" : "fit-content" };
+    }
+    if (val === 8) {
+      styles = { maxHeight: isPhone ? "2.2rem" : "3.5rem" };
     }
     return styles;
   };
