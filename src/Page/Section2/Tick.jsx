@@ -18,10 +18,13 @@ const Tick = () => {
     const isPhone = window.innerWidth <= 768; // Check if the device is a phone
 
     if (val === 6) {
-      styles = { maxHeight: "fit-content", width: isPhone ? "5rem" : "8rem" };
+      styles = {
+        maxHeight: isPhone ? "3.8rem" : "5rem",
+        width: isPhone ? "5rem" : "8rem",
+      };
     }
     if (val === 7) {
-      styles = { maxHeight: isPhone ? "2.2rem" : "fit-content" };
+      styles = { maxHeight: isPhone ? "2.2rem" : "3rem" };
     }
     if (val === 8) {
       styles = { maxHeight: isPhone ? "2.2rem" : "3.5rem" };
