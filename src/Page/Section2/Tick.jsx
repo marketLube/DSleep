@@ -10,15 +10,6 @@ import icon6 from "../../assets/logos/dsleep-06.svg";
 const Tick = () => {
   const logos = [icon1, icon2, icon3, icon6, icon4, icon5];
 
-  // const logos = [
-  //   "/logos/Dueroflex.jpg",
-  //   "/logos/dsleep-02.svg",
-  //   "/logos/dsleep-03.svg",
-  //   "/logos/dsleep-06.svg",
-  //   "/logos/dsleep-04.svg",
-  //   "/logos/dsleep-05.svg",
-  // ];
-
   return (
     <section className="featureList">
       {logos.map((logo, index) => (
