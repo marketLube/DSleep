@@ -19,7 +19,7 @@ const Tick = () => {
 
     if (val === 6) {
       styles = {
-        maxHeight: isPhone ? "3.8rem" : "5rem",
+        maxHeight: isPhone ? "3.5rem" : "5rem",
         width: isPhone ? "5rem" : "8rem",
       };
     }
