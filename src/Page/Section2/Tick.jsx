@@ -9,13 +9,20 @@ import icon6 from "../../assets/logos/dsleep-06.svg";
 import icon7 from "../../assets/logos/mmform.webp";
 import icon8 from "../../assets/logos/kurlon.webp";
 import icon9 from "../../assets/logos/sundayMattress.png";
+import MMFORM from "../../assets/doc/MMFoam.pdf";
 
 const Tick = () => {
   const logos = [icon1, icon2, icon3, icon6, icon4, icon5, icon7, icon8, icon9];
 
+  const handleDownload = (index) => {
+    if (index === 6) {
+      window.open(MMFORM, "_blank");
+    }
+  };
+
   const style = (val) => {
     let styles = {};
-    const isPhone = window.innerWidth <= 768; // Check if the device is a phone
+    const isPhone = window.innerWidth <= 768;
 
     if (val === 6) {
       styles = {
@@ -35,7 +42,12 @@ const Tick = () => {
   return (
     <section className="featureList">
       {logos.map((logo, index) => (
-        <div key={index} className="featureList-item">
+        <div
+          key={index}
+          className="featureList-item"
+          onClick={() => handleDownload(index)}
+          style={{ cursor: index === 6 ? "pointer" : "default" }}
+        >
           <img
             src={logo}
             alt="Company logo"
