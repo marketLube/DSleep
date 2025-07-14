@@ -12,7 +12,7 @@ const products = [
   {
     id: 1,
     image:
-      "https://res.cloudinary.com/dzuqczvb7/image/upload/v1744835411/634_4AED42_OFF__100_1_kfcz4e.webp",
+      "https://marketlube-website-assets.s3.ap-south-1.amazonaws.com/Dsleep/634_4AED42_OFF__100_1_kfcz4e.webp",
     title: "Latex Bed",
     price: "₹ 15000",
     msrp: "₹ 20000",
@@ -21,7 +21,7 @@ const products = [
   {
     id: 2,
     image:
-      "https://res.cloudinary.com/dzuqczvb7/image/upload/v1744835411/65a2edf9e032a94b5a119df8-serwall-luxury-solid-down-alternative_oqvymz.jpg",
+      "https://marketlube-website-assets.s3.ap-south-1.amazonaws.com/Dsleep/65a2edf9e032a94b5a119df8-serwall-luxury-solid-down-alternative_oqvymz.jpg",
     title: "Comforter",
     price: "₹ 2999",
     msrp: "₹ 3499",
@@ -30,7 +30,7 @@ const products = [
   {
     id: 3,
     image:
-      "https://res.cloudinary.com/dzuqczvb7/image/upload/v1744835411/1_accb13e5-2194-46e7-af25-a87fb47e9e08_c8z8ta.webp",
+      "https://marketlube-website-assets.s3.ap-south-1.amazonaws.com/Dsleep/1_accb13e5-2194-46e7-af25-a87fb47e9e08_c8z8ta.webp",
     title: "Pillow",
     price: "₹ 1999",
     msrp: "₹ 2999",

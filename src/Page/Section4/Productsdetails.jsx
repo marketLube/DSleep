@@ -10,7 +10,7 @@ const productData = [
   {
     id: 1,
     image:
-      "https://res.cloudinary.com/dzuqczvb7/image/upload/v1744833553/dsleep-05_brki16.webp",
+      "https://marketlube-website-assets.s3.ap-south-1.amazonaws.com/Dsleep/dsleep-05_brki16.webp",
     smallHead: "Stay with us",
     head: "Mattress",
     description:
@@ -19,7 +19,7 @@ const productData = [
   {
     id: 2,
     image:
-      "https://res.cloudinary.com/dzuqczvb7/image/upload/v1744833553/dsleep-04_ueo8u6.webp",
+      "https://marketlube-website-assets.s3.ap-south-1.amazonaws.com/Dsleep/dsleep-04_ueo8u6.webp",
     smallHead: "Experience Comfort",
     head: "Memory Foam Pillows",
     description:
@@ -28,7 +28,7 @@ const productData = [
   {
     id: 3,
     image:
-      "https://res.cloudinary.com/dzuqczvb7/image/upload/v1744893429/3d_Latex_Massage_Pillow_qi0hbq.jpg",
+      "https://marketlube-website-assets.s3.ap-south-1.amazonaws.com/Dsleep/3d_Latex_Massage_Pillow_qi0hbq.jpg",
     smallHead: "Sleep in Style",
     head: "Latex Foam Pillows",
     description:
@@ -37,7 +37,7 @@ const productData = [
   {
     id: 5,
     image:
-      "https://res.cloudinary.com/dzuqczvb7/image/upload/v1744833553/dsleep-03_o1ja3e.webp",
+      "https://marketlube-website-assets.s3.ap-south-1.amazonaws.com/Dsleep/dsleep-03_o1ja3e.webp",
     smallHead: "Ultimate Relaxation",
     head: "Comforters",
     description:
@@ -46,7 +46,7 @@ const productData = [
   {
     id: 6,
     image:
-      "https://res.cloudinary.com/dzuqczvb7/image/upload/v1744893698/1062496-1_n9zcff.webp",
+      "https://marketlube-website-assets.s3.ap-south-1.amazonaws.com/Dsleep/1062496-1_n9zcff.webp",
     smallHead: "Sleep Like a King",
     head: "Bedsheets",
     description:
@@ -55,7 +55,7 @@ const productData = [
   {
     id: 7,
     image:
-      "https://res.cloudinary.com/dzuqczvb7/image/upload/v1744893969/amazonlistinggreyprotector4_1000x1000pxhighresolution_47fcb2c2-7cfb-43ae-900f-a6f9d007196a_ygdfd5.webp",
+      "https://marketlube-website-assets.s3.ap-south-1.amazonaws.com/Dsleep/amazonlistinggreyprotector4_1000x1000pxhighresolution_47fcb2c2-7cfb-43ae-900f-a6f9d007196a_ygdfd5.webp",
 
     smallHead: "Cozy Up",
     head: "Waterproof Protectors",

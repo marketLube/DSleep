@@ -94,7 +94,7 @@ body {
 .bed {
   height: 100vh;
   width: 100%;
-  background-image: linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 35%), url("https://res.cloudinary.com/dzuqczvb7/image/upload/v1744871760/universal_upscale_0_39c1f47b-7002-443f-9bd4-bec44f36e3e5_0a_ofjvnm.png");
+  background-image: linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 35%), url("https://marketlube-website-assets.s3.ap-south-1.amazonaws.com/Dsleep/universal_upscale_0_39c1f47b-7002-443f-9bd4-bec44f36e3e5_0a_ofjvnm.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -102,13 +102,13 @@ body {
 @media only screen and (max-width: 575.98px) {
   .bed {
     height: 100vh;
-    background-image: linear-gradient(to bottom, rgb(255, 255, 255) 30%, rgba(255, 255, 255, 0) 85%), url("https://res.cloudinary.com/dzuqczvb7/image/upload/v1744871760/universal_upscale_0_39c1f47b-7002-443f-9bd4-bec44f36e3e5_0a_ofjvnm.png");
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255) 30%, rgba(255, 255, 255, 0) 85%), url("https://marketlube-website-assets.s3.ap-south-1.amazonaws.com/Dsleep/universal_upscale_0_39c1f47b-7002-443f-9bd4-bec44f36e3e5_0a_ofjvnm.png");
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767.98px) {
   .bed {
     height: 100vh;
-    background-image: linear-gradient(to bottom, rgb(255, 255, 255) 30%, rgba(255, 255, 255, 0) 85%), url("https://res.cloudinary.com/dzuqczvb7/image/upload/v1744871760/universal_upscale_0_39c1f47b-7002-443f-9bd4-bec44f36e3e5_0a_ofjvnm.png");
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255) 30%, rgba(255, 255, 255, 0) 85%), url("https://marketlube-website-assets.s3.ap-south-1.amazonaws.com/Dsleep/universal_upscale_0_39c1f47b-7002-443f-9bd4-bec44f36e3e5_0a_ofjvnm.png");
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
@@ -1996,7 +1996,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-image: url("https://res.cloudinary.com/dzuqczvb7/image/upload/v1744821377/universal_upscale_0_5bbf57f3-1447-4124-8e7e-597e2785382a_0_dfsscf.jpg");
+  background-image: url("https://marketlube-website-assets.s3.ap-south-1.amazonaws.com/Dsleep/universal_upscale_0_5bbf57f3-1447-4124-8e7e-597e2785382a_0_dfsscf.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2269,7 +2269,7 @@ body {
 .mattress {
   background-color: antiquewhite;
   height: 115vh;
-  background-image: url("https://res.cloudinary.com/dzuqczvb7/image/upload/v1744833553/dsleep-02_sn45rf.webp");
+  background-image: url("https://marketlube-website-assets.s3.ap-south-1.amazonaws.com/Dsleep/dsleep-02_sn45rf.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2290,7 +2290,7 @@ body {
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
   .mattress {
     height: 100vh;
-    background-image: url("https://res.cloudinary.com/dzuqczvb7/image/upload/v1744833553/dsleep-02_sn45rf.webp");
+    background-image: url("https://marketlube-website-assets.s3.ap-south-1.amazonaws.com/Dsleep/dsleep-02_sn45rf.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

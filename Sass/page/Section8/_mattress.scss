@@ -3,7 +3,7 @@
 .mattress {
   background-color: antiquewhite;
   height: 115vh;
-  background-image: url("https://res.cloudinary.com/dzuqczvb7/image/upload/v1744833553/dsleep-02_sn45rf.webp");
+  background-image: url("https://marketlube-website-assets.s3.ap-south-1.amazonaws.com/Dsleep/dsleep-02_sn45rf.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -19,7 +19,7 @@
   }
   @include mix.respond(tablets) {
     height: 100vh;
-    background-image: url("https://res.cloudinary.com/dzuqczvb7/image/upload/v1744833553/dsleep-02_sn45rf.webp");
+    background-image: url("https://marketlube-website-assets.s3.ap-south-1.amazonaws.com/Dsleep/dsleep-02_sn45rf.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
